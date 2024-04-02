@@ -2,25 +2,25 @@ var spreadsheet = `kore-ko	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 \u0020	 	 		 	 		Zs		space				U+0020: SPACE				
 \u200B	=			ᶻʷˢᵖ			Cf		zero-width space				U+200B: ZERO WIDTH SPACE				
 // onsets																	
-ᄇ	p	p-		p	b		Lo		jamo onset consonant		비읍	bi-eup	U+1107: HANGUL CHOSEONG PIEUP				
-ᄈ	p	p͈-		p͈	pp		Lo		jamo onset consonant		쌍비읍	ssang-bi-eup	U+1108: HANGUL CHOSEONG SSANGPIEUP				
-ᄑ	p	pʰ-		pʰ	p		Lo		jamo onset consonant		피읖 	p̣i-eup 	U+1111: HANGUL CHOSEONG PHIEUPH				
-ᄃ	t	t-		t	d		Lo		jamo onset consonant		디귿	digeut	U+1103: HANGUL CHOSEONG TIKEUT				
-ᄄ	t	t͈-		t͈	tt		Lo		jamo onset consonant		쌍디귿	ssang-digeut	U+1104: HANGUL CHOSEONG SSANGTIKEUT				
-ᄐ	t	tʰ-		tʰ	t		Lo		jamo onset consonant		티읕 	ṭi-eut 	U+1110: HANGUL CHOSEONG THIEUTH				
-ᄌ	c	t͡ɕ-		c	j		Lo		jamo onset consonant		지읒 	ji-eut 	U+110C: HANGUL CHOSEONG CIEUC				
-ᄍ	c	t͈͡ɕ-		c	jj		Lo		jamo onset consonant		쌍지읒	ssang-ji-eut 	U+110D: HANGUL CHOSEONG SSANGCIEUC				
-ᄎ	c	tɕʰ-		cʰ	ch		Lo		jamo onset consonant		치읓 	chi-eut 	U+110E: HANGUL CHOSEONG CHIEUCH				
-ᄀ	k	k-		k	g		Lo		jamo onset consonant		기역	gi-yeok	U+1100: HANGUL CHOSEONG KIYEOK				
-ᄁ	k	k͈-		k͈	kk		Lo		jamo onset consonant		쌍기역	ssang-giyeok	U+1101: HANGUL CHOSEONG SSANGKIYEOK				
-ᄏ	k	kʰ-		kʰ	k		Lo		jamo onset consonant		키읔 	ḳi-euk 	U+110F: HANGUL CHOSEONG KHIEUKH				
-ᄉ	s	s-		s	s		Lo		jamo onset consonant		시옷	si-ot (shi-ot)	U+1109: HANGUL CHOSEONG SIOS				
-ᄊ	s	s͈-		s͈	ss		Lo		jamo onset consonant		쌍시옷	ssang-si-ot (ssang-shi-ot)	U+110A: HANGUL CHOSEONG SSANGSIOS				
-ᄒ	h	h-		h	h		Lo		jamo onset consonant		히읗 	hi-eut 	U+1112: HANGUL CHOSEONG HIEUH				
-ᄆ	m	m-		m	m		Lo		jamo onset consonant		미음	mi-eum	U+1106: HANGUL CHOSEONG MIEUM				
-ᄂ	n	n-		n	n		Lo		jamo onset consonant		니은	ni-eun	U+1102: HANGUL CHOSEONG NIEUN				
-ᄋ	n	∅-		ŋ			Lo		jamo onset consonant		이응	'i-eung 	U+110B: HANGUL CHOSEONG IEUNG				
-ᄅ	l	ɾ-		l	r		Lo		jamo onset consonant		리을	ri-eul	U+1105: HANGUL CHOSEONG RIEUL				
+ᄇ	p	p-		p	b		Lo		jamo onset		비읍	bi-eup	U+1107: HANGUL CHOSEONG PIEUP				
+ᄈ	p	p͈-		p͈	pp		Lo		jamo onset		쌍비읍	ssang-bi-eup	U+1108: HANGUL CHOSEONG SSANGPIEUP				
+ᄑ	p	pʰ-		pʰ	p		Lo		jamo onset		피읖 	p̣i-eup 	U+1111: HANGUL CHOSEONG PHIEUPH				
+ᄃ	t	t-		t	d		Lo		jamo onset		디귿	digeut	U+1103: HANGUL CHOSEONG TIKEUT				
+ᄄ	t	t͈-		t͈	tt		Lo		jamo onset		쌍디귿	ssang-digeut	U+1104: HANGUL CHOSEONG SSANGTIKEUT				
+ᄐ	t	tʰ-		tʰ	t		Lo		jamo onset		티읕 	ṭi-eut 	U+1110: HANGUL CHOSEONG THIEUTH				
+ᄌ	c	t͡ɕ-		c	j		Lo		jamo onset		지읒 	ji-eut 	U+110C: HANGUL CHOSEONG CIEUC				
+ᄍ	c	t͈͡ɕ-		c	jj		Lo		jamo onset		쌍지읒	ssang-ji-eut 	U+110D: HANGUL CHOSEONG SSANGCIEUC				
+ᄎ	c	tɕʰ-		cʰ	ch		Lo		jamo onset		치읓 	chi-eut 	U+110E: HANGUL CHOSEONG CHIEUCH				
+ᄀ	k	k-		k	g		Lo		jamo onset		기역	gi-yeok	U+1100: HANGUL CHOSEONG KIYEOK				
+ᄁ	k	k͈-		k͈	kk		Lo		jamo onset		쌍기역	ssang-giyeok	U+1101: HANGUL CHOSEONG SSANGKIYEOK				
+ᄏ	k	kʰ-		kʰ	k		Lo		jamo onset		키읔 	ḳi-euk 	U+110F: HANGUL CHOSEONG KHIEUKH				
+ᄉ	s	s-		s	s		Lo		jamo onset		시옷	si-ot (shi-ot)	U+1109: HANGUL CHOSEONG SIOS				
+ᄊ	s	s͈-		s͈	ss		Lo		jamo onset		쌍시옷	ssang-si-ot (ssang-shi-ot)	U+110A: HANGUL CHOSEONG SSANGSIOS				
+ᄒ	h	h-		h	h		Lo		jamo onset		히읗 	hi-eut 	U+1112: HANGUL CHOSEONG HIEUH				
+ᄆ	m	m-		m	m		Lo		jamo onset		미음	mi-eum	U+1106: HANGUL CHOSEONG MIEUM				
+ᄂ	n	n-		n	n		Lo		jamo onset		니은	ni-eun	U+1102: HANGUL CHOSEONG NIEUN				
+ᄋ	n	∅-		ŋ			Lo		jamo onset		이응	'i-eung 	U+110B: HANGUL CHOSEONG IEUNG				
+ᄅ	l	ɾ-		l	r		Lo		jamo onset		리을	ri-eul	U+1105: HANGUL CHOSEONG RIEUL				
 // vowels																	
 ᅵ	i	i		i	i		Lo		jamo plain vowel				U+1175: HANGUL JUNGSEONG I	✓			
 ᅳ	w	ɯ		ɯ	eu		Lo		jamo plain vowel				U+1173: HANGUL JUNGSEONG EU	✓			
@@ -45,33 +45,33 @@ var spreadsheet = `kore-ko	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ᅯ	W	wʌ		wᶺ	wo		Lo		jamo diphthong				U+116F: HANGUL JUNGSEONG WEO	✓			
 ᅪ	W	wa		wᵄ	wa		Lo		jamo diphthong				U+116A: HANGUL JUNGSEONG WA	✓			
 // finals																	
-ᆸ	p	-p̚		p	p		Lo		jamo final consonant		비읍	bi-eup	U+11B8: HANGUL JONGSEONG PIEUP	✓			
-ᆹ		-p -ps			bs		Lo		jamo final consonant				U+11B9: HANGUL JONGSEONG PIEUP-SIOS	✓			
-ᇁ	p	-p̚		pʰ	p		Lo		jamo final consonant		피읖 	p̣i-eup 	U+11C1: HANGUL JONGSEONG PHIEUPH	✓			
-ᆮ	t	-t		t	t		Lo		jamo final consonant		디귿	digeut	U+11AE: HANGUL JONGSEONG TIKEUT	✓			
-ᇀ	t	-t		tʰ	t		Lo		jamo final consonant		티읕 	ṭi-eut 	U+11C0: HANGUL JONGSEONG THIEUTH	✓			
-ᆽ	c	-t		c	t		Lo		jamo final consonant		지읒 	ji-eut 	U+11BD: HANGUL JONGSEONG CIEUC	✓			
-ᆾ	c	-t		cʰ	t		Lo		jamo final consonant		치읓 	chi-eut 	U+11BE: HANGUL JONGSEONG CHIEUCH	✓			
-ᆨ	k	-k̚		k	k		Lo		jamo final consonant		기역	gi-yeok	U+11A8: HANGUL JONGSEONG KIYEOK	✓			
-ᆩ	k	-k̚		k͈	k		Lo		jamo final consonant		쌍기역	ssang-giyeok	U+11A9: HANGUL JONGSEONG SSANGKIYEOK	✓			
-ᆪ	k	-k -ks			ks		Lo		jamo complex final consonant				U+11AA: HANGUL JONGSEONG KIYEOK-SIOS	✓			
-ᆿ	k	-k̚		kʰ	k		Lo		jamo final consonant		키읔 	ḳi-euk 	U+11BF: HANGUL JONGSEONG KHIEUKH	✓			
-ᆺ	s	-t		s	t		Lo		jamo final consonant		시옷	si-ot (shi-ot)	U+11BA: HANGUL JONGSEONG SIOS	✓			
-ᆻ	s	-t		s͈	t		Lo		jamo final consonant		쌍시옷	ssang-si-ot (ssang-shi-ot)	U+11BB: HANGUL JONGSEONG SSANGSIOS	✓			
-ᇂ	h	-t		h	h		Lo		jamo final consonant		히읗 	hi-eut 	U+11C2: HANGUL JONGSEONG HIEUH	✓			
-ᆷ	m	-m		m	m		Lo		jamo final consonant		미음	mi-eum	U+11B7: HANGUL JONGSEONG MIEUM	✓			
-ᆫ	n	-n		n	n		Lo		jamo final consonant		니은	ni-eun	U+11AB: HANGUL JONGSEONG NIEUN	✓			
-ᆬ	n	-n -nt͡ɕ			nj		Lo		jamo complex final consonant				U+11AC: HANGUL JONGSEONG NIEUN-CIEUC	✓			
-ᆭ		-n -nh			nh		Lo		jamo complex final consonant				U+11AD: HANGUL JONGSEONG NIEUN-HIEUH	✓			
-ᆼ	n	-ŋ		ŋ	ng		Lo		jamo final consonant		이응	'i-eung 	U+11BC: HANGUL JONGSEONG IEUNG	✓			
-ᆯ	l	-ɭ		l	l		Lo		jamo final consonant		리을	ri-eul	U+11AF: HANGUL JONGSEONG RIEUL	✓			
-ᆰ		-k -l -lk			lg		Lo		jamo complex final consonant				U+11B0: HANGUL JONGSEONG RIEUL-KIYEOK	✓			
-ᆱ		-m -lm			lm		Lo		jamo complex final consonant				U+11B1: HANGUL JONGSEONG RIEUL-MIEUM	✓			
-ᆲ		-l -p -lp			lb		Lo		jamo complex final consonant				U+11B2: HANGUL JONGSEONG RIEUL-PIEUP	✓			
-ᆳ		-l -ls			ls		Lo		jamo complex final consonant				U+11B3: HANGUL JONGSEONG RIEUL-SIOS	✓			
-ᆴ		-l -lt			lt		Lo		jamo complex final consonant				U+11B4: HANGUL JONGSEONG RIEUL-THIEUTH	✓			
-ᆵ		-p -lp			lp		Lo		jamo complex final consonant				U+11B5: HANGUL JONGSEONG RIEUL-PHIEUPH	✓			
-ᆶ		-l -lh			lh		Lo		jamo complex final consonant				U+11B6: HANGUL JONGSEONG RIEUL-HIEUH	✓			
+ᆸ	p	-p̚		p	p		Lo		jamo coda		비읍	bi-eup	U+11B8: HANGUL JONGSEONG PIEUP	✓			
+ᆹ		-p -ps			bs		Lo		jamo coda				U+11B9: HANGUL JONGSEONG PIEUP-SIOS	✓			
+ᇁ	p	-p̚		pʰ	p		Lo		jamo coda		피읖 	p̣i-eup 	U+11C1: HANGUL JONGSEONG PHIEUPH	✓			
+ᆮ	t	-t		t	t		Lo		jamo coda		디귿	digeut	U+11AE: HANGUL JONGSEONG TIKEUT	✓			
+ᇀ	t	-t		tʰ	t		Lo		jamo coda		티읕 	ṭi-eut 	U+11C0: HANGUL JONGSEONG THIEUTH	✓			
+ᆽ	c	-t		c	t		Lo		jamo coda		지읒 	ji-eut 	U+11BD: HANGUL JONGSEONG CIEUC	✓			
+ᆾ	c	-t		cʰ	t		Lo		jamo coda		치읓 	chi-eut 	U+11BE: HANGUL JONGSEONG CHIEUCH	✓			
+ᆨ	k	-k̚		k	k		Lo		jamo coda		기역	gi-yeok	U+11A8: HANGUL JONGSEONG KIYEOK	✓			
+ᆩ	k	-k̚		k͈	k		Lo		jamo coda		쌍기역	ssang-giyeok	U+11A9: HANGUL JONGSEONG SSANGKIYEOK	✓			
+ᆪ	k	-k -ks			ks		Lo		jamo complex coda				U+11AA: HANGUL JONGSEONG KIYEOK-SIOS	✓			
+ᆿ	k	-k̚		kʰ	k		Lo		jamo coda		키읔 	ḳi-euk 	U+11BF: HANGUL JONGSEONG KHIEUKH	✓			
+ᆺ	s	-t		s	t		Lo		jamo coda		시옷	si-ot (shi-ot)	U+11BA: HANGUL JONGSEONG SIOS	✓			
+ᆻ	s	-t		s͈	t		Lo		jamo coda		쌍시옷	ssang-si-ot (ssang-shi-ot)	U+11BB: HANGUL JONGSEONG SSANGSIOS	✓			
+ᇂ	h	-t		h	h		Lo		jamo coda		히읗 	hi-eut 	U+11C2: HANGUL JONGSEONG HIEUH	✓			
+ᆷ	m	-m		m	m		Lo		jamo coda		미음	mi-eum	U+11B7: HANGUL JONGSEONG MIEUM	✓			
+ᆫ	n	-n		n	n		Lo		jamo coda		니은	ni-eun	U+11AB: HANGUL JONGSEONG NIEUN	✓			
+ᆬ	n	-n -nt͡ɕ			nj		Lo		jamo complex coda				U+11AC: HANGUL JONGSEONG NIEUN-CIEUC	✓			
+ᆭ		-n -nh			nh		Lo		jamo complex coda				U+11AD: HANGUL JONGSEONG NIEUN-HIEUH	✓			
+ᆼ	n	-ŋ		ŋ	ng		Lo		jamo coda		이응	'i-eung 	U+11BC: HANGUL JONGSEONG IEUNG	✓			
+ᆯ	l	-ɭ		l	l		Lo		jamo coda		리을	ri-eul	U+11AF: HANGUL JONGSEONG RIEUL	✓			
+ᆰ		-k -l -lk			lg		Lo		jamo complex coda				U+11B0: HANGUL JONGSEONG RIEUL-KIYEOK	✓			
+ᆱ		-m -lm			lm		Lo		jamo complex coda				U+11B1: HANGUL JONGSEONG RIEUL-MIEUM	✓			
+ᆲ		-l -p -lp			lb		Lo		jamo complex coda				U+11B2: HANGUL JONGSEONG RIEUL-PIEUP	✓			
+ᆳ		-l -ls			ls		Lo		jamo complex coda				U+11B3: HANGUL JONGSEONG RIEUL-SIOS	✓			
+ᆴ		-l -lt			lt		Lo		jamo complex coda				U+11B4: HANGUL JONGSEONG RIEUL-THIEUTH	✓			
+ᆵ		-p -lp			lp		Lo		jamo complex coda				U+11B5: HANGUL JONGSEONG RIEUL-PHIEUPH	✓			
+ᆶ		-l -lh			lh		Lo		jamo complex coda				U+11B6: HANGUL JONGSEONG RIEUL-HIEUH	✓			
 																	
 																	
 																	
@@ -126,37 +126,38 @@ var spreadsheet = `kore-ko	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 □				–			So		replacement character				U+25A1: WHITE SQUARE				
 // punctuation																	
 ・				–			Po		counterpoint marker				U+30FB: KATAKANA MIDDLE DOT				
+·				·			Po		counterpoint marker				U+00B7: MIDDLE DOT				
 %				%			Po		percent sign				U+0025: PERCENT SIGN				
 ℃				℃			So		degree celsius sign				U+2103: DEGREE CELSIUS				
 ~				~			Sm		range indicator				U+007E: TILDE				
 																	
 ,	,			,	,		Po		comma				U+002C: COMMA		⹁	،	
-、							Po			Used in vertical text.			U+3001: IDEOGRAPHIC COMMA				
+、							Po		comma	Used in vertical text.			U+3001: IDEOGRAPHIC COMMA				
 ;	;			;	;		Po		semicolon				U+003B: SEMICOLON		⁏ ;	؛	
-；							Po			Used in vertical text.			U+FF1B: FULLWIDTH SEMICOLON				
+；							Po		semicolon	Used in vertical text.			U+FF1B: FULLWIDTH SEMICOLON				
 !	!			!	!		Po		exclamation mark				U+0021: EXCLAMATION MARK		𞥞 !		
-！							Po			Used in vertical text.			U+FF01: FULLWIDTH EXCLAMATION MARK				
+！							Po		exclamation mark	Used in vertical text.			U+FF01: FULLWIDTH EXCLAMATION MARK				
 ?	?			?	?		Po		question mark				U+003F: QUESTION MARK		𞥟 ؟	؟	
-？							Po			Used in vertical text.			U+FF1F: FULLWIDTH QUESTION MARK				
+？							Po		question mark	Used in vertical text.			U+FF1F: FULLWIDTH QUESTION MARK				
 :	:			:	:		Po		colon				U+003A: COLON		:	:	
-：							Po			Used in vertical text.			U+FF1A: FULLWIDTH COLON				
+：							Po		colon	Used in vertical text.			U+FF1A: FULLWIDTH COLON				
 .	.			.	.		Po		full stop				U+002E: FULL STOP			✓	
-．							Po						U+FF0E: FULLWIDTH FULL STOP				
-。							Po						U+3002: IDEOGRAPHIC FULL STOP				
+．							Po		full stop	Used in vertical text.			U+FF0E: FULLWIDTH FULL STOP				
+。							Po		full stop	Used in vertical text.			U+3002: IDEOGRAPHIC FULL STOP				
 …	.			…	…		Po		ellipsis				U+2026: HORIZONTAL ELLIPSIS			✓	
 ‥				‥			Po		ellipsis marker				U+2025: TWO DOT LEADER				
 “	<			“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK			✓	
 ”	>			”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK			✓	
 ‘	<			‘	‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK			✓	
 ’	>			’	’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK			✓	
-「							Ps			Used in vertical text.			U+300C: LEFT CORNER BRACKET				
-」							Pe			Used in vertical text.			U+300D: RIGHT CORNER BRACKET				
-『							Ps			Used in vertical text.			U+300E: LEFT WHITE CORNER BRACKET				
-』							Pe			Used in vertical text.			U+300F: RIGHT WHITE CORNER BRACKET				
-《							Ps						U+300A: LEFT DOUBLE ANGLE BRACKET				
-》							Pe						U+300B: RIGHT DOUBLE ANGLE BRACKET				
-〈							Ps						U+3008: LEFT ANGLE BRACKET				
-〉							Pe						U+3009: RIGHT ANGLE BRACKET				
+「							Ps		bracket	Used in vertical text.			U+300C: LEFT CORNER BRACKET				
+」							Pe		bracket	Used in vertical text.			U+300D: RIGHT CORNER BRACKET				
+『							Ps		bracket	Used in vertical text.			U+300E: LEFT WHITE CORNER BRACKET				
+』							Pe		bracket	Used in vertical text.			U+300F: RIGHT WHITE CORNER BRACKET				
+《							Ps		bracket				U+300A: LEFT DOUBLE ANGLE BRACKET				
+》							Pe		bracket				U+300B: RIGHT DOUBLE ANGLE BRACKET				
+〈							Ps		bracket				U+3008: LEFT ANGLE BRACKET				
+〉							Pe		bracket				U+3009: RIGHT ANGLE BRACKET				
 (	(			(	(		Ps		parenthesis				U+0028: LEFT PARENTHESIS			(	
 )	)			)	)		Pe		parenthesis				U+0029: RIGHT PARENTHESIS			)	
 [	(			[	[		Ps		bracket				U+005B: LEFT SQUARE BRACKET			[	

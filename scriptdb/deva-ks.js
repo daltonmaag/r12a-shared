@@ -45,95 +45,96 @@ var spreadsheet = `deva-ks	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ९	9			9̣	9		Nd	?	digit							U+096F: DEVANAGARI DIGIT NINE	✓
 																	
 																	
-ा	a	aː		ā	ā		Mc		vowel sign				आ			U+093E: DEVANAGARI VOWEL SIGN AA	✓
-अ	A	aː		ạ	a		Lo		independent vowel							U+0905: DEVANAGARI LETTER A	✓
-आ	A	aː		ạ̄	ā		Lo		independent vowel			ा				U+0906: DEVANAGARI LETTER AA	✓
-ब	b	b		b	b		Lo		consonant							U+092C: DEVANAGARI LETTER BA	✓
-च	c	t͡ʃ		ʧ	č		Lo		consonant							U+091A: DEVANAGARI LETTER CA	✓
-छ	C	t͡ʃʰ		ʧʰ	čh		Lo		consonant							U+091B: DEVANAGARI LETTER CHA	✓
-ड	d	ɖ		ɖ	ḍ		Lo		consonant							U+0921: DEVANAGARI LETTER DDA	✓
-द	d¶	d		d	d		Lo		consonant							U+0926: DEVANAGARI LETTER DA	✓
-े	e	eː		ē	ē		Mn		vowel sign				ए			U+0947: DEVANAGARI VOWEL SIGN E	✓
-ऺ	e	ə		ə	ö		Mn		vowel sign				ॳ			U+093A: DEVANAGARI VOWEL SIGN OE	✓
-ऻ	e	əː		ə̄	ȫ		Mc		vowel sign				ॴ			U+093B: DEVANAGARI VOWEL SIGN OOE	✓
-ै	e	əĭ		əʲ	ai		Mn		vowel sign				ऐ			U+0948: DEVANAGARI VOWEL SIGN AI	✓
-ौ	e	əŭ		əʷ	au		Mc		vowel sign				औ			U+094C: DEVANAGARI VOWEL SIGN AU	✓
-ऎ	E	e		ẹ	e		Lo		independent vowel			ॆ				U+090E: DEVANAGARI LETTER SHORT E	✓
-ए	E	eː		ẹ̄	ē		Lo		independent vowel			े				U+090F: DEVANAGARI LETTER E	✓
-ॳ	E	ə		ə̣	ö		Lo		independent vowel			ऺ				U+0973: DEVANAGARI LETTER OE	✓
-ॴ	E	əː		ə̣̄	ȫ		Lo		independent vowel			ऻ				U+0974: DEVANAGARI LETTER OOE	✓
-ऐ	E	əĭ		ə̣ʲ	ai		Lo		independent vowel			ै				U+0910: DEVANAGARI LETTER AI	✓
-औ	E	əŭ		ə̣ʷ	au		Lo		independent vowel			ौ				U+0914: DEVANAGARI LETTER AU	✓
-ॆ	e¶	e		e	e		Mn		vowel sign				ऎ			U+0946: DEVANAGARI VOWEL SIGN SHORT E	✓
-ग	g	g		g	g		Lo		consonant							U+0917: DEVANAGARI LETTER GA	✓
-ह	h	h		h	h		Lo		consonant							U+0939: DEVANAGARI LETTER HA	✓
+प	p	p	ə	p	p		Lo		consonant							U+092A: DEVANAGARI LETTER PA	✓
+फ	P	pʰ	ə	pʰ	ph		Lo		consonant							U+092B: DEVANAGARI LETTER PHA	✓
+ब	b	b	ə	b	b		Lo		consonant							U+092C: DEVANAGARI LETTER BA	✓
+त	t¶	t	ə	t	t		Lo		consonant							U+0924: DEVANAGARI LETTER TA	✓
+थ	T¶	tʰ	ə	tʰ	th		Lo		consonant							U+0925: DEVANAGARI LETTER THA	✓
+च़	t	t͡s	ə	ʦ	c				consonant							U+091A, U+093C: DEVANAGARI LETTER CA, SIGN NUKTA	
+छ़	T	t͡sʰ	ə	ʦʰ	ch				consonant							U+091B, U+093C: DEVANAGARI LETTER CHA, SIGN NUKTA	
+च	c	t͡ʃ	ə	ʧ	č		Lo		consonant							U+091A: DEVANAGARI LETTER CA	✓
+छ	C	t͡ʃʰ	ə	ʧʰ	čh		Lo		consonant							U+091B: DEVANAGARI LETTER CHA	✓
+ट	t	ʈ	ə	ʈ	ṭ		Lo		consonant							U+091F: DEVANAGARI LETTER TTA	✓
+ठ	T	ʈʰ	ə	ʈʰ	ṭh		Lo		consonant							U+0920: DEVANAGARI LETTER TTHA	✓
+द	d¶	d	ə	d	d		Lo		consonant							U+0926: DEVANAGARI LETTER DA	✓
+ज	j	d͡ʒ	ə	ʤ	j		Lo		consonant							U+091C: DEVANAGARI LETTER JA	✓
+ड	d	ɖ	ə	ɖ	ḍ		Lo		consonant							U+0921: DEVANAGARI LETTER DDA	✓
+क	k	k	ə	k	k		Lo		consonant							U+0915: DEVANAGARI LETTER KA	✓
+ख	K	kʰ	ə	kʰ	kh		Lo		consonant							U+0916: DEVANAGARI LETTER KHA	✓
+ग	g	g	ə	g	g		Lo		consonant							U+0917: DEVANAGARI LETTER GA	✓
+व	v	v w	ə	v	w		Lo		consonant							U+0935: DEVANAGARI LETTER VA	✓
+स	s¶	s	ə	s	s		Lo		consonant							U+0938: DEVANAGARI LETTER SA	✓
+ज़	z	z	ə	z	z				consonant							U+091C, U+093C: DEVANAGARI LETTER JA, SIGN NUKTA	
+\u095B	z	z	ə	z	z		Lo	i	precomposed consonant		ज़					U+095B: DEVANAGARI LETTER ZA	
+श	s	ʃ	ə	ʃ	š		Lo		consonant							U+0936: DEVANAGARI LETTER SHA	✓
+ह	h	h	ə	h	h		Lo		consonant							U+0939: DEVANAGARI LETTER HA	✓
+म	m	m	ə	m	m		Lo		consonant							U+092E: DEVANAGARI LETTER MA	✓
+ं	m	m n ŋ	ə	m̽	ṁ		Mn		final nasal						anusvara	U+0902: DEVANAGARI SIGN ANUSVARA	✓
+न	n¶	n	ə	n	n		Lo		consonant							U+0928: DEVANAGARI LETTER NA	✓
+ल	l	l	ə	l	l		Lo		consonant							U+0932: DEVANAGARI LETTER LA	✓
+र	r	r	ə	r	r		Lo		consonant							U+0930: DEVANAGARI LETTER RA	✓
+ृ	R	ri	ə	r̥	r̥		Mn		vocalic vowel sign				ऋ			U+0943: DEVANAGARI VOWEL SIGN VOCALIC R	✓
+ऋ	R	ri	ə	r̥̣	r̥		Lo		vocalic independent vowel			ृ				U+090B: DEVANAGARI LETTER VOCALIC R	✓
+ॄ		riː	ə	r̥̄	r̥̄		Mn	?	vowel sign				ॠ			U+0944: DEVANAGARI VOWEL SIGN VOCALIC RR	✓
+ॠ		riː	ə	r̥̣̄	r̥̄		Lo	?	independent vowel			ॄ				U+0960: DEVANAGARI LETTER VOCALIC RR	✓
+य	y	j	ə	y	y		Lo		consonant/palatalisation marker							U+092F: DEVANAGARI LETTER YA	✓
+य्	j	ʲ	ə	y͓	ⁱ				palatalisation marker							U+092F DEVANAGARI LETTER YA, SIGN VIRAMA	
+																	
+																	
 ि	i	i		i	i		Mc		vowel sign				इ			U+093F: DEVANAGARI VOWEL SIGN I	✓
-ी	i	iː		ī	ī		Mc		vowel sign				ई			U+0940: DEVANAGARI VOWEL SIGN II	✓
-ॖ	i	ɨ		ɨ	ü		Mn		vowel sign				ॶ			U+0956: DEVANAGARI VOWEL SIGN UE	✓
-ॗ	i	ɨː		ɨ̄	ǖ		Mn		vowel sign				ॷ			U+0957: DEVANAGARI VOWEL SIGN UUE	✓
 इ	I	i		ị	i		Lo		independent vowel			ि				U+0907: DEVANAGARI LETTER I	✓
+ी	i	iː		ī	ī		Mc		vowel sign				ई			U+0940: DEVANAGARI VOWEL SIGN II	✓
 ई	I	iː		ị̄	ī		Lo		independent vowel			ी				U+0908: DEVANAGARI LETTER II	✓
+ॖ	i	ɨ		ɨ	ü		Mn		vowel sign				ॶ			U+0956: DEVANAGARI VOWEL SIGN UE	✓
 ॶ	I	ɨ		ɨ̣	ü		Lo		independent vowel			ॖ				U+0976: DEVANAGARI LETTER UE	✓
+ॗ	i	ɨː		ɨ̄	ǖ		Mn		vowel sign				ॷ			U+0957: DEVANAGARI VOWEL SIGN UUE	✓
 ॷ	I	ɨː		ɨ̣̄	ǖ		Lo		independent vowel			ॗ				U+0977: DEVANAGARI LETTER UUE	✓
-ज	j	d͡ʒ		ʤ	j		Lo		consonant							U+091C: DEVANAGARI LETTER JA	✓
-य्	j	ʲ		y͓	ⁱ				palatalisation marker							U+092F DEVANAGARI LETTER YA, SIGN VIRAMA	
-क	k	k		k	k		Lo		consonant							U+0915: DEVANAGARI LETTER KA	✓
-ख	K	kʰ		kʰ	kh		Lo		consonant							U+0916: DEVANAGARI LETTER KHA	✓
-ल	l	l		l	l		Lo		consonant							U+0932: DEVANAGARI LETTER LA	✓
-म	m	m		m	m		Lo		consonant							U+092E: DEVANAGARI LETTER MA	✓
-ं	m	m n ŋ		m̽	ṁ		Mn		final nasal						anusvara	U+0902: DEVANAGARI SIGN ANUSVARA	✓
-न	n¶	n		n	n		Lo		consonant							U+0928: DEVANAGARI LETTER NA	✓
-ॊ	o	o		o	o		Mc		vowel sign				ऒ			U+094A: DEVANAGARI VOWEL SIGN SHORT O	✓
-ो	o	oː		ō	ō		Mc		vowel sign				ओ			U+094B: DEVANAGARI VOWEL SIGN O	✓
-ॏ	o	ɔː		ɔ			Mc		vowel sign				ॵ			U+094F: DEVANAGARI VOWEL SIGN AW	✓
-ऒ	O	o		ọ	o		Lo		independent vowel			ॊ				U+0912: DEVANAGARI LETTER SHORT O	✓
-ओ	O	oː		ọ̄	ō		Lo		independent vowel			ो				U+0913: DEVANAGARI LETTER O	✓
-ॵ	O	ɔː		ɔ̣			Lo		independent vowel			ॏ				U+0975: DEVANAGARI LETTER AW	✓
-प	p	p		p	p		Lo		consonant							U+092A: DEVANAGARI LETTER PA	✓
-फ	P	pʰ		pʰ	ph		Lo		consonant							U+092B: DEVANAGARI LETTER PHA	✓
-र	r	r		r	r		Lo		consonant							U+0930: DEVANAGARI LETTER RA	✓
-ृ	R	ri		r̥	r̥		Mn		vocalic vowel sign				ऋ			U+0943: DEVANAGARI VOWEL SIGN VOCALIC R	✓
-ऋ	R	ri		r̥̣	r̥		Lo		vocalic independent vowel			ृ				U+090B: DEVANAGARI LETTER VOCALIC R	✓
-श	s	ʃ		ʃ	š		Lo		consonant							U+0936: DEVANAGARI LETTER SHA	✓
-स	s¶	s		s	s		Lo		consonant							U+0938: DEVANAGARI LETTER SA	✓
-च़	t	t͡s		ʦ	c				consonant							U+091A, U+093C: DEVANAGARI LETTER CA, SIGN NUKTA	
-ट	t	ʈ		ʈ	ṭ		Lo		consonant							U+091F: DEVANAGARI LETTER TTA	✓
-छ़	T	t͡sʰ		ʦʰ	ch				consonant							U+091B, U+093C: DEVANAGARI LETTER CHA, SIGN NUKTA	
-ठ	T	ʈʰ		ʈʰ	ṭh		Lo		consonant							U+0920: DEVANAGARI LETTER TTHA	✓
-त	t¶	t		t	t		Lo		consonant							U+0924: DEVANAGARI LETTER TA	✓
-थ	T¶	tʰ		tʰ	th		Lo		consonant							U+0925: DEVANAGARI LETTER THA	✓
 ु	u	u		u	u		Mn		vowel sign				उ			U+0941: DEVANAGARI VOWEL SIGN U	✓
-ू	u	uː		ū	ū		Mn		vowel sign				ऊ			U+0942: DEVANAGARI VOWEL SIGN UU	✓
 उ	U	u		ụ	u		Lo		independent vowel			ु				U+0909: DEVANAGARI LETTER U	✓
+ू	u	uː		ū	ū		Mn		vowel sign				ऊ			U+0942: DEVANAGARI VOWEL SIGN UU	✓
 ऊ	U	uː		ụ̄	ū		Lo		independent vowel			ू				U+090A: DEVANAGARI LETTER UU	✓
-व	v	v w		v	w		Lo		consonant							U+0935: DEVANAGARI LETTER VA	✓
-य	y	j		y	y		Lo		consonant/palatalisation marker							U+092F: DEVANAGARI LETTER YA	✓
-ज़	z	z		z	z				consonant							U+091C, U+093C: DEVANAGARI LETTER JA, SIGN NUKTA	
-\u095B	z	z		z	z		Lo	i	precomposed consonant	infrequent	ज़					U+095B: DEVANAGARI LETTER ZA	
+ॆ	e¶	e		e	e		Mn		vowel sign				ऎ			U+0946: DEVANAGARI VOWEL SIGN SHORT E	✓
+ऎ	E	e		ẹ	e		Lo		independent vowel			ॆ				U+090E: DEVANAGARI LETTER SHORT E	✓
+े	e	eː		ē	ē		Mn		vowel sign				ए			U+0947: DEVANAGARI VOWEL SIGN E	✓
+ए	E	eː		ẹ̄	ē		Lo		independent vowel			े				U+090F: DEVANAGARI LETTER E	✓
+ॊ	o	o		o	o		Mc		vowel sign				ऒ			U+094A: DEVANAGARI VOWEL SIGN SHORT O	✓
+ऒ	O	o		ọ	o		Lo		independent vowel			ॊ				U+0912: DEVANAGARI LETTER SHORT O	✓
+ो	o	oː		ō	ō		Mc		vowel sign				ओ			U+094B: DEVANAGARI VOWEL SIGN O	✓
+ओ	O	oː		ọ̄	ō		Lo		independent vowel			ो				U+0913: DEVANAGARI LETTER O	✓
+ऺ	e	ə		ə	ö		Mn		vowel sign				ॳ			U+093A: DEVANAGARI VOWEL SIGN OE	✓
+ॳ	E	ə		ə̣	ö		Lo		independent vowel			ऺ				U+0973: DEVANAGARI LETTER OE	✓
+ऻ	e	əː		ə̄	ȫ		Mc		vowel sign				ॴ			U+093B: DEVANAGARI VOWEL SIGN OOE	✓
+ॴ	E	əː		ə̣̄	ȫ		Lo		independent vowel			ऻ				U+0974: DEVANAGARI LETTER OOE	✓
+ॏ	o	ɔː		ɔ			Mc		vowel sign				ॵ			U+094F: DEVANAGARI VOWEL SIGN AW	✓
+ॵ	O	ɔː		ɔ̣			Lo		independent vowel			ॏ				U+0975: DEVANAGARI LETTER AW	✓
+अ	A	aː		ạ	a		Lo		independent vowel							U+0905: DEVANAGARI LETTER A	✓
+ा	a	aː		ā	ā		Mc		vowel sign				आ			U+093E: DEVANAGARI VOWEL SIGN AA	✓
+आ	A	aː		ạ̄	ā		Lo		independent vowel			ा				U+0906: DEVANAGARI LETTER AA	✓
 																	
-																	
-ॄ		riː		r̥̄	r̥̄		Mn	?	vowel sign				ॠ			U+0944: DEVANAGARI VOWEL SIGN VOCALIC RR	✓
-ॠ		riː		r̥̣̄	r̥̄		Lo	?	independent vowel			ॄ				U+0960: DEVANAGARI LETTER VOCALIC RR	✓
+ै	e	əĭ		əʲ	ai		Mn		vowel sign				ऐ			U+0948: DEVANAGARI VOWEL SIGN AI	✓
+ऐ	E	əĭ		ə̣ʲ	ai		Lo		independent vowel			ै				U+0910: DEVANAGARI LETTER AI	✓
+ौ	e	əŭ		əʷ	au		Mc		vowel sign				औ			U+094C: DEVANAGARI VOWEL SIGN AU	✓
+औ	E	əŭ		ə̣ʷ	au		Lo		independent vowel			ौ				U+0914: DEVANAGARI LETTER AU	✓
 																	
 ॐ							Lo	?								U+0950: DEVANAGARI OM	✓
 																	
-ॲ		ə		ə̸̣			Lo	a	independent vowel	archaic (incorrect in modern use)		ॅ				U+0972: DEVANAGARI LETTER CANDRA A	✓
-ॅ		ə		ə̸			Mn	a	vowel sign	archaic (incorrect in modern use)			ॲ			U+0945: DEVANAGARI VOWEL SIGN CANDRA E	✓
-ऑ		əː		ə̸̣̄			Lo	a	independent vowel	archaic (incorrect in modern use)		ॉ				U+0911: DEVANAGARI LETTER CANDRA O	✓
-ॉ		əː		ə̸̄			Mc	a	vowel sign	archaic (incorrect in modern use)			ऑ			U+0949: DEVANAGARI VOWEL SIGN CANDRA O	✓
+ॲ		ə		ə̸̣			Lo	a	independent vowel	Incorrect in modern use.		ॅ				U+0972: DEVANAGARI LETTER CANDRA A	✓
+ॅ		ə		ə̸			Mn	a	vowel sign	Incorrect in modern use.			ॲ			U+0945: DEVANAGARI VOWEL SIGN CANDRA E	✓
+ऑ		əː		ə̸̣̄			Lo	a	independent vowel	Incorrect in modern use.		ॉ				U+0911: DEVANAGARI LETTER CANDRA O	✓
+ॉ		əː		ə̸̄			Mc	a	vowel sign	Incorrect in modern use.			ऑ			U+0949: DEVANAGARI VOWEL SIGN CANDRA O	✓
 ऽ				–			Lo	a	vowel sign							U+093D DEVANAGARI SIGN AVAGRAHA	
 																	
-ष		ʂ		ʂ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+0937: DEVANAGARI LETTER SSA	✓
-क्ष		kʂ		k͓ʂ				r	consonant cluster	rare, spellings retained in Sanskrit loans						U+0915 U+094D U+0937: DEVANAGARI LETTER KA, DEVANAGARI SIGN VIRAMA, DEVANAGARI LETTER SSA	
-झ		ɟʰ		jʰ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+091D: DEVANAGARI LETTER JHA	✓
-ध		dʱ		dʱ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+0927: DEVANAGARI LETTER DHA	✓
-ढ		ɖʱ		ɖʱ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+0922: DEVANAGARI LETTER DDHA	✓
-घ		gʱ		gʱ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+0918: DEVANAGARI LETTER GHA	✓
-भ		bʱ		bʱ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+092D: DEVANAGARI LETTER BHA	✓
-ङ		ŋ		ŋ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+0919: DEVANAGARI LETTER NGA	✓
-ण		ɳ		ɳ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+0923: DEVANAGARI LETTER NNA	✓
-ञ		n		ɲ			Lo	r	consonant	rare, spellings retained in Sanskrit loans						U+091E: DEVANAGARI LETTER NYA	✓
-ज्ञ		ɡj		ɟ͓ɲ				r	consonant cluster	rare, spellings retained in Sanskrit loans						U+091C U+094D U+091E: DEVANAGARI LETTER JA, SIGN VIRAMA, LETTER NYA	
+ष		ʂ		ʂ			Lo	r	consonant	Spellings retained in Sanskrit loans.						U+0937: DEVANAGARI LETTER SSA	✓
+क्ष		kʂ		k͓ʂ				r	consonant cluster	Spellings retained in Sanskrit loans.						U+0915 U+094D U+0937: DEVANAGARI LETTER KA, DEVANAGARI SIGN VIRAMA, DEVANAGARI LETTER SSA	
+झ		ɟʰ		jʰ			Lo	r	consonant	Spellings retained in Sanskrit loans.						U+091D: DEVANAGARI LETTER JHA	✓
+ध		dʱ		dʱ			Lo	r	consonant	Spellings retained in Sanskrit loans.						U+0927: DEVANAGARI LETTER DHA	✓
+ढ		ɖʱ		ɖʱ			Lo	r	consonant	Spellings retained in Sanskrit loans.						U+0922: DEVANAGARI LETTER DDHA	✓
+घ		gʱ		gʱ			Lo	r	consonant	Spellings retained in Sanskrit loans.						U+0918: DEVANAGARI LETTER GHA	✓
+भ		bʱ		bʱ			Lo	r	consonant	Spellings retained in Sanskrit loans.						U+092D: DEVANAGARI LETTER BHA	✓
+ङ		ŋ		ŋ			Lo	r	consonant	Spellings retained in Sanskrit loans.						U+0919: DEVANAGARI LETTER NGA	✓
+ण		ɳ		ɳ			Lo	r	consonant	Spellings retained in Sanskrit loans.						U+0923: DEVANAGARI LETTER NNA	✓
+ञ		n		ɲ			Lo	r	consonant	Spellings retained in Sanskrit loans.						U+091E: DEVANAGARI LETTER NYA	✓
+ज्ञ		ɡj		ɟ͓ɲ				r	consonant cluster	Spellings retained in Sanskrit loans.						U+091C U+094D U+091E: DEVANAGARI LETTER JA, SIGN VIRAMA, LETTER NYA	
 																	
 ʼ				ʼ	ʼ		Lm	?	apostrophe							U+02BC: MODIFIER LETTER APOSTROPHE	
 §				§	§		Po	?	section sign							U+00A7: SECTION SIGN	

@@ -46,92 +46,96 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ”	>			”	”		Pf		quotation mark						U+201D: RIGHT DOUBLE QUOTATION MARK	
 ।	|			|	.		Po	a	phrase separator	for older texts					U+0964: DEVANAGARI DANDA	✓
 ॥	|			¶			Po	a	phrase separator	for older texts					U+0965: DEVANAGARI DOUBLE DANDA	✓
-ാ	a	aː		ā	ā		Mc		vowel sign			ആ			U+0D3E: MALAYALAM VOWEL SIGN AA	✓
-ൈ	a	ai̯		aʲ	ai		Mc		vowel sign			ഐ			U+0D48: MALAYALAM VOWEL SIGN AI	✓
-ൗ	a	au̯		aʷ	au		Mc		vowel sign			ഔ			U+0D57: MALAYALAM AU LENGTH MARK	✓
-ൌ	a	au̯		ȧʷ	au		Mc	a	historic vowel sign	archaic					U+0D4C: MALAYALAM VOWEL SIGN AU	✓
-\u{D47}\u{D3E}	a	ai̯		ēā	ai				ോ						U+0D47 U+0D3E: MALAYALAM VOWEL SIGN EE, VOWEL SIGN AA	
-\u{D46}\u{D57}	a	au̯		eaʷ	au				ൌ						U+0D46 U+0D57: MALAYALAM VOWEL SIGN E, AU LENGTH MARK	
-അ	A	a		ạ̄	a		Lo		independent vowel						U+0D05: MALAYALAM LETTER A	✓
-ആ	A	aː		ậ	ā		Lo		independent vowel		ാ				U+0D06: MALAYALAM LETTER AA	✓
-ഐ	A	ai̯		ạʲ	ai		Lo		independent vowel		ൈ				U+0D10: MALAYALAM LETTER AI	✓
-ഔ	A	au̯		ạʷ	au		Lo		independent vowel		ൗ				U+0D14: MALAYALAM LETTER AU	✓
+																
+പ	p	p	a	p	p		Lo		consonant						U+0D2A: MALAYALAM LETTER PA	✓
+ഫ	P	pʰ	a	pʰ	ph		Lo		consonant						U+0D2B: MALAYALAM LETTER PHA	✓
 ബ	b	b	a	b	b		Lo		consonant						U+0D2C: MALAYALAM LETTER BA	✓
 ഭ	B	bʰ	a	bʰ	bh		Lo		consonant						U+0D2D: MALAYALAM LETTER BHA	✓
+ഺ	t	t	a	ṫ	ṯ		Lo	a	consonant						U+0D3A: MALAYALAM LETTER TTTA	✓
+റ്റ	t	tt		ṙ͓ṙ	ṯṯ				consonant cluster						U+0D31 U+0D4D U+0D31: MALAYALAM LETTER RRA, SIGN VIRAMA, LETTER RRA	
+ത	t¶	t̪	a	t	t		Lo		consonant						U+0D24: MALAYALAM LETTER TA	✓
+ഥ	T¶	t̪ʰ	a	tʰ	th		Lo		consonant						U+0D25: MALAYALAM LETTER THA	✓
 ച	c	t͡ʃ	a	c	c		Lo		consonant						U+0D1A: MALAYALAM LETTER CA	✓
 ഛ	C	t͡ʃʰ	a	cʰ	ch		Lo		consonant						U+0D1B: MALAYALAM LETTER CHA	✓
-ഡ	d	ɖ	a	ɖ	ḍ		Lo		consonant						U+0D21: MALAYALAM LETTER DDA	✓
-ഢ	D	ɖʰ	a	ɖʰ	ḍh		Lo		consonant						U+0D22: MALAYALAM LETTER DDHA	✓
 ദ	d¶	d̪	a	d	d		Lo		consonant						U+0D26: MALAYALAM LETTER DA	✓
 ധ	D¶	d̪ʰ	a	dʰ	dh		Lo		consonant						U+0D27: MALAYALAM LETTER DHA	✓
-ഏ	E	eː		ẹ̄	ē		Lo		independent vowel		േ				U+0D0F: MALAYALAM LETTER EE	✓
-േ	e	eː		ē	ē		Mc		vowel sign			ഏ			U+0D47: MALAYALAM VOWEL SIGN EE	✓
-എ	E¶	e		ẹ	e		Lo		independent vowel		െ				U+0D0E: MALAYALAM LETTER E	✓
-െ	e¶	e		e	e		Mc		vowel sign			എ			U+0D46: MALAYALAM VOWEL SIGN E	✓
-ഗ	g	g	a	g	g		Lo		consonant						U+0D17: MALAYALAM LETTER GA	✓
-ഘ	G	gʰ	a	gʰ	gh		Lo		consonant						U+0D18: MALAYALAM LETTER GHA	✓
-ഹ	h	ɦ	a	h	h		Lo		consonant						U+0D39: MALAYALAM LETTER HA	✓
-ഃ	h	ɦ		h̽	ḥ		Mc		visarga						U+0D03: MALAYALAM SIGN VISARGA	✓
-ഇ	I	i		ị	i		Lo		independent vowel		ി				U+0D07: MALAYALAM LETTER I	✓
-ഈ	I	iː		ị̄	ī		Lo		independent vowel		ീ				U+0D08: MALAYALAM LETTER II	✓
-ി	i	i		i	i		Mc		vowel sign			ഇ			U+0D3F: MALAYALAM VOWEL SIGN I	✓
-ീ	i	iː		ī	ī		Mc		vowel sign			ഈ			U+0D40: MALAYALAM VOWEL SIGN II	✓
+ഡ	d	ɖ	a	ɖ	ḍ		Lo		consonant						U+0D21: MALAYALAM LETTER DDA	✓
+ഢ	D	ɖʰ	a	ɖʰ	ḍh		Lo		consonant						U+0D22: MALAYALAM LETTER DDHA	✓
+ട	t	ʈ	a	ʈ	ṭ		Lo		consonant						U+0D1F: MALAYALAM LETTER TTA	✓
+ഠ	T	ʈʰ	a	ʈʰ	ṭh		Lo		consonant						U+0D20: MALAYALAM LETTER TTHA	✓
 ജ	j	ɟ	a	j	j		Lo		consonant						U+0D1C: MALAYALAM LETTER JA	✓
 ഝ	J	ɟʰ	a	jʰ	jh		Lo		consonant						U+0D1D: MALAYALAM LETTER JHA	✓
 ക	k	k	a	k	k		Lo		consonant						U+0D15: MALAYALAM LETTER KA	✓
 ഖ	K	kʰ	a	kʰ	kh		Lo		consonant						U+0D16: MALAYALAM LETTER KHA	✓
-ൿ	K	k	a	k̽	k^		Lo		chillu consonant						U+0D7F: MALAYALAM LETTER CHILLU K	✓
-ല	l	l	a	l	l		Lo		consonant						U+0D32: MALAYALAM LETTER LA	✓
-ള	l	ɭ	a	ɭ	ḷ		Lo		consonant						U+0D33: MALAYALAM LETTER LLA	✓
-ഴ	l	ɻ	a	ɻ	ḻ		Lo		consonant						U+0D34: MALAYALAM LETTER LLLA	✓
-ൽ	L	l	a	l̽	l^		Lo		chillu consonant						U+0D7D: MALAYALAM LETTER CHILLU L	✓
-ൾ	L	ɭ	a	ɭ̽	ḷ^		Lo		chillu consonant						U+0D7E: MALAYALAM LETTER CHILLU LL	✓
-ഌ	L	lɨ		l̥̣	l̥̣		Lo	r	independent vowel	(in one Sanskrit word only)	ൢ				U+0D0C: MALAYALAM LETTER VOCALIC L	✓
-ൡ	L	lɨː		l̥̣̄	l̥̣̄		Lo	r	independent vowel	very rare	ൣ				U+0D61: MALAYALAM LETTER VOCALIC LL	✓
-ൢ	L	lɨ		l̥	l̥		Mn	u	vowel sign	very rare		ഌ			U+0D62: MALAYALAM VOWEL SIGN VOCALIC L	✓
-ൣ	L	lɨː		l̥̄	l̥̄		Mn	u	vowel sign	very rare		ൡ			U+0D63: MALAYALAM VOWEL SIGN VOCALIC LL	✓
-മ	m	m	a	m	m		Lo		consonant						U+0D2E: MALAYALAM LETTER MA	✓
-ം	m	m		m̽	ṃ		Mc		anusvara						U+0D02: MALAYALAM SIGN ANUSVARA	✓
-ങ	N	ŋ	a	ŋ	ṅ		Lo		consonant						U+0D19: MALAYALAM LETTER NGA	✓
-ഞ	n	ɲ	a	ɲ	ñ		Lo		consonant						U+0D1E: MALAYALAM LETTER NYA	✓
-ണ	n	ɳ	a	ɳ	ṇ		Lo		consonant						U+0D23: MALAYALAM LETTER NNA	✓
-ഩ	n	n	a	ṅ	ṉ		Lo	a	consonant	archaic					U+0D29: MALAYALAM LETTER NNNA	✓
-ൺ	N	n	a	ɳ̽	ṇ^		Lo		chillu consonant						U+0D7A: MALAYALAM LETTER CHILLU NN	✓
-ൻ	N	n	a	n̽	n^		Lo		chillu consonant						U+0D7B: MALAYALAM LETTER CHILLU N	✓
-ന	n¶	n̪ n	a	n	n		Lo		consonant						U+0D28: MALAYALAM LETTER NA	✓
-ഒ	O	o		ọ	o		Lo		independent vowel		ൊ				U+0D12: MALAYALAM LETTER O	✓
-ഓ	O	oː		ọ̄	ō		Lo		independent vowel		ോ				U+0D13: MALAYALAM LETTER OO	✓
-ൊ	o	o		o	o		Mc		vowel sign			ഒ			U+0D4A: MALAYALAM VOWEL SIGN O	✓
-ോ	o	oː		ō	ō		Mc		vowel sign			ഓ			U+0D4B: MALAYALAM VOWEL SIGN OO	✓
-\u{D46}\u{D3E}	o	oː		eā	ō				ൊ						U+0D46 U+0D3E: MALAYALAM VOWEL SIGN E, VOWEL SIGN AA	
-പ	p	p	a	p	p		Lo		consonant						U+0D2A: MALAYALAM LETTER PA	✓
-ഫ	P	pʰ	a	pʰ	ph		Lo		consonant						U+0D2B: MALAYALAM LETTER PHA	✓
-ര	r	r̪	a	r	r		Lo		consonant						U+0D30: MALAYALAM LETTER RA	✓
-റ	r	r t	a	ṙ	ṟ		Lo		consonant						U+0D31: MALAYALAM LETTER RRA	✓
-ർ	R	r	a	r̽	r^		Lo		chillu consonant						U+0D7C: MALAYALAM LETTER CHILLU RR	✓
-ഋ	R	rɨ		r̥̣	r̥̣		Lo		independent vowel		ൃ				U+0D0B: MALAYALAM LETTER VOCALIC R	✓
-ൠ	R	rɨː		r̥̣̄	r̥̣̄		Lo	r	independent vowel	very rare	ൄ				U+0D60: MALAYALAM LETTER VOCALIC RR	✓
-ൃ	R	rɨ		r̥	r̥		Mn		vowel sign			ഋ			U+0D43: MALAYALAM VOWEL SIGN VOCALIC R	✓
-ൄ	R	rɨː		r̥̄	r̥̄		Mn	u	vowel sign	very rare		ൠ			U+0D44: MALAYALAM VOWEL SIGN VOCALIC RR	✓
+ഗ	g	ɡ	a	g	g		Lo		consonant						U+0D17: MALAYALAM LETTER GA	✓
+ഘ	G	ɡʰ	a	gʰ	gh		Lo		consonant						U+0D18: MALAYALAM LETTER GHA	✓
 ശ	s	ɕ ʃ	a	ʃ	ś		Lo		consonant						U+0D36: MALAYALAM LETTER SHA	✓
 ഷ	s	ʂ	a	ʂ	ṣ		Lo		consonant						U+0D37: MALAYALAM LETTER SSA	✓
 സ	s¶	s	a	s	s		Lo		consonant						U+0D38: MALAYALAM LETTER SA	✓
-ട	t	ʈ	a	ʈ	ṭ		Lo		consonant						U+0D1F: MALAYALAM LETTER TTA	✓
-ഠ	T	ʈʰ	a	ʈʰ	ṭh		Lo		consonant						U+0D20: MALAYALAM LETTER TTHA	✓
-ഺ	t	t	a	ṫ	ṯ		Lo	a	consonant	archaic					U+0D3A: MALAYALAM LETTER TTTA	✓
-റ്റ	t	tt		ṙ͓ṙ	ṯṯ										U+0D31 U+0D4D U+0D31: MALAYALAM LETTER RRA, SIGN VIRAMA, LETTER RRA	
-ത	t¶	t̪	a	t	t		Lo		consonant						U+0D24: MALAYALAM LETTER TA	✓
-ഥ	T¶	t̪ʰ	a	tʰ	th		Lo		consonant						U+0D25: MALAYALAM LETTER THA	✓
-ഉ	U	u		ụ	u		Lo		independent vowel		ു				U+0D09: MALAYALAM LETTER U	✓
-ഊ	U	uː		ụ̄	ū		Lo		independent vowel		ൂ				U+0D0A: MALAYALAM LETTER UU	✓
-ു	u	u		u	u		Mn		vowel sign			ഉ			U+0D41: MALAYALAM VOWEL SIGN U	✓
-ൂ	u	uː		ū	ū		Mn		vowel sign			ഊ			U+0D42: MALAYALAM VOWEL SIGN UU	✓
+ഹ	h	ɦ	a	h	h		Lo		consonant						U+0D39: MALAYALAM LETTER HA	✓
+മ	m	m	a	m	m		Lo		consonant						U+0D2E: MALAYALAM LETTER MA	✓
+ഩ	n	n	a	ṅ	ṉ		Lo	a	consonant						U+0D29: MALAYALAM LETTER NNNA	✓
+ന	n¶	n̪ n	a	n	n		Lo		consonant						U+0D28: MALAYALAM LETTER NA	✓
+ഞ	n	ɲ	a	ɲ	ñ		Lo		consonant						U+0D1E: MALAYALAM LETTER NYA	✓
+ണ	n	ɳ	a	ɳ	ṇ		Lo		consonant						U+0D23: MALAYALAM LETTER NNA	✓
+ങ	N	ŋ	a	ŋ	ṅ		Lo		consonant						U+0D19: MALAYALAM LETTER NGA	✓
 വ	v	ʋ	a	ʋ	v		Lo		consonant						U+0D35: MALAYALAM LETTER VA	✓
+ര	r	r̪	a	r	r		Lo		consonant						U+0D30: MALAYALAM LETTER RA	✓
+റ	r	r t	a	ṙ	ṟ		Lo		consonant						U+0D31: MALAYALAM LETTER RRA	✓
+ൃ	R	rɨ		r̥	r̥		Mn		vocalic vowel sign			ഋ			U+0D43: MALAYALAM VOWEL SIGN VOCALIC R	✓
+ഋ	R	rɨ		r̥̣	r̥̣		Lo		vocalic independent vowel		ൃ				U+0D0B: MALAYALAM LETTER VOCALIC R	✓
+ൄ	R	rɨː		r̥̄	r̥̄		Mn	u	vocalic vowel sign	Very rare.		ൠ			U+0D44: MALAYALAM VOWEL SIGN VOCALIC RR	✓
+ൠ	R	rɨː		r̥̣̄	r̥̣̄		Lo	r	vocalic independent vowel	Very rare.	ൄ				U+0D60: MALAYALAM LETTER VOCALIC RR	✓
+ഴ	l	ɻ	a	ɻ	ḻ		Lo		consonant						U+0D34: MALAYALAM LETTER LLLA	✓
+ല	l	l	a	l	l		Lo		consonant						U+0D32: MALAYALAM LETTER LA	✓
+ള	l	ɭ	a	ɭ	ḷ		Lo		consonant						U+0D33: MALAYALAM LETTER LLA	✓
+ൢ	L	lɨ		l̥	l̥		Mn	u	vocalic vowel sign	Very rare.		ഌ			U+0D62: MALAYALAM VOWEL SIGN VOCALIC L	✓
+ഌ	L	lɨ		l̥̣	l̥̣		Lo	r	vocalic independent vowel	Used in one Sanskrit word only.	ൢ				U+0D0C: MALAYALAM LETTER VOCALIC L	✓
+ൣ	L	lɨː		l̥̄	l̥̄		Mn	u	vocalic vowel sign	Very rare.		ൡ			U+0D63: MALAYALAM VOWEL SIGN VOCALIC LL	✓
+ൡ	L	lɨː		l̥̣̄	l̥̣̄		Lo	r	vocalic independent vowel	Very rare.	ൣ				U+0D61: MALAYALAM LETTER VOCALIC LL	✓
 യ	y	j	a	y	y		Lo		consonant						U+0D2F: MALAYALAM LETTER YA	✓
+																
+ൿ	K	k		k̽	k^		Lo		chillu consonant						U+0D7F: MALAYALAM LETTER CHILLU K	✓
+ഃ	h	ɦ		h̽	ḥ		Mc		final consonant						U+0D03: MALAYALAM SIGN VISARGA	✓
+ം	m	m		m̽	ṃ		Mc		final consonant						U+0D02: MALAYALAM SIGN ANUSVARA	✓
+ൻ	N	n		n̽	n^		Lo		chillu consonant						U+0D7B: MALAYALAM LETTER CHILLU N	✓
+ൺ	N	ɳ		ɳ̽	ṇ^		Lo		chillu consonant						U+0D7A: MALAYALAM LETTER CHILLU NN	✓
+ർ	R	r		r̽	r^		Lo		chillu consonant						U+0D7C: MALAYALAM LETTER CHILLU RR	✓
+ൽ	L	l		l̽	l^		Lo		chillu consonant						U+0D7D: MALAYALAM LETTER CHILLU L	✓
+ൾ	L	ɭ		ɭ̽	ḷ^		Lo		chillu consonant						U+0D7E: MALAYALAM LETTER CHILLU LL	✓
+																
+ി	i	i		i	i		Mc		vowel sign			ഇ			U+0D3F: MALAYALAM VOWEL SIGN I	✓
+ഇ	I	i		ị	i		Lo		independent vowel		ി				U+0D07: MALAYALAM LETTER I	✓
+ീ	i	iː		ī	ī		Mc		vowel sign			ഈ			U+0D40: MALAYALAM VOWEL SIGN II	✓
+ഈ	I	iː		ị̄	ī		Lo		independent vowel		ീ				U+0D08: MALAYALAM LETTER II	✓
+ു	u	u		u	u		Mn		vowel sign			ഉ			U+0D41: MALAYALAM VOWEL SIGN U	✓
+ഉ	U	u		ụ	u		Lo		independent vowel		ു				U+0D09: MALAYALAM LETTER U	✓
+ൂ	u	uː		ū	ū		Mn		vowel sign			ഊ			U+0D42: MALAYALAM VOWEL SIGN UU	✓
+ഊ	U	uː		ụ̄	ū		Lo		independent vowel		ൂ				U+0D0A: MALAYALAM LETTER UU	✓
+എ	E¶	e		ẹ	e		Lo		independent vowel		െ				U+0D0E: MALAYALAM LETTER E	✓
+െ	e¶	e		e	e		Mc		vowel sign			എ			U+0D46: MALAYALAM VOWEL SIGN E	✓
+ഏ	E	eː		ẹ̄	ē		Lo		independent vowel		േ				U+0D0F: MALAYALAM LETTER EE	✓
+േ	e	eː		ē	ē		Mc		vowel sign			ഏ			U+0D47: MALAYALAM VOWEL SIGN EE	✓
+ൊ	o	o		o	o		Mc		vowel sign			ഒ			U+0D4A: MALAYALAM VOWEL SIGN O	✓
+ഒ	O	o		ọ	o		Lo		independent vowel		ൊ				U+0D12: MALAYALAM LETTER O	✓
+ോ	o	oː		ō	ō		Mc		vowel sign			ഓ			U+0D4B: MALAYALAM VOWEL SIGN OO	✓
+\u{D46}\u{D3E}	o	oː		eā	ō				vowel sign	Only found in decomposed text. Use ൊ instead.					U+0D46 U+0D3E: MALAYALAM VOWEL SIGN E, VOWEL SIGN AA	
+ഓ	O	oː		ọ̄	ō		Lo		independent vowel		ോ				U+0D13: MALAYALAM LETTER OO	✓
+അ	A	a		ạ̄	a		Lo		independent vowel						U+0D05: MALAYALAM LETTER A	✓
+ാ	a	aː		ā	ā		Mc		vowel sign			ആ			U+0D3E: MALAYALAM VOWEL SIGN AA	✓
+ആ	A	aː		ậ	ā		Lo		independent vowel		ാ				U+0D06: MALAYALAM LETTER AA	✓
+ൈ	a	ai̯		aʲ	ai		Mc		vowel sign			ഐ			U+0D48: MALAYALAM VOWEL SIGN AI	✓
+\u{D47}\u{D3E}	a	ai̯		ēā	ai				vowel sign	Only found in decomposed text. Use ോ instead.					U+0D47 U+0D3E: MALAYALAM VOWEL SIGN EE, VOWEL SIGN AA	
+ഐ	A	ai̯		ạʲ	ai		Lo		independent vowel		ൈ				U+0D10: MALAYALAM LETTER AI	✓
+ൗ	a	au̯		aʷ	au		Mc		vowel sign			ഔ			U+0D57: MALAYALAM AU LENGTH MARK	✓
+ൌ	a	au̯		ȧʷ	au		Mc	a	vowel sign	Historic use only.					U+0D4C: MALAYALAM VOWEL SIGN AU	✓
+ഔ	A	au̯		ạʷ	au		Lo		independent vowel		ൗ				U+0D14: MALAYALAM LETTER AU	✓
+\u{D46}\u{D57}	a	au̯		eaʷ	au				ൌ	Only found in decomposed text. Use ൌ  instead.					U+0D46 U+0D57: MALAYALAM VOWEL SIGN E, AU LENGTH MARK	
+																
 ഀ							Mn	?							U+0D00: MALAYALAM SIGN COMBINING ANUSVARA ABOVE	✓
 ൏				~			So	a	measure of rice						U+0D4F: MALAYALAM SIGN PARA	✓
 ഽ				ˣ	\’		Lo	?	avagraha				പ്രശ്ലേഷം	praślēṣam	U+0D3D: MALAYALAM SIGN AVAGRAHA	✓
-ൎ				⁎			Lo	a	repha	pre 1970s reform					U+0D4E: MALAYALAM LETTER DOT REPH	✓
+ൎ				⁎			Lo	a	repha	Used before the 1970s reform.					U+0D4E: MALAYALAM LETTER DOT REPH	✓
 ൟ							Lo	a							U+0D5F: MALAYALAM LETTER ARCHAIC II	✓
 §				§	§		Po	?	section sign						U+00A7: SECTION SIGN	
 †				†	†		Po	?	dagger						U+2020: DAGGER	
@@ -157,7 +161,7 @@ var spreadsheet = `mlym-ml	key	ipa	ipa+	translit	iso	kbd	class	status	type	usage
 ꠰				–			No	a	fraction						U+A830: NORTH INDIC FRACTION ONE QUARTER	
 ꠱				–			No	a	fraction						U+A831: NORTH INDIC FRACTION ONE HALF	
 ꠲				–			No	a	fraction						U+A832: NORTH INDIC FRACTION THREE QUARTERS	
-൹							So	r	date sign	usage fading					U+0D79: MALAYALAM DATE MARK	✓
+൹							So	r	date sign	Usage is fading.					U+0D79: MALAYALAM DATE MARK	✓
 																
 ൔ				–			Lo		chillu consonant						U+0D54: MALAYALAM LETTER CHILLU M	
 ൕ				–			Lo		chillu consonant						U+0D55: MALAYALAM LETTER CHILLU Y	

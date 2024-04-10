@@ -63,95 +63,101 @@ var spreadsheet = `sinh-si	key	ipa	ipa+	translit	ISO	kbd	class	status	type	usage
 𑇧	7	7		7̱	7		No	a	historical number						U+111E7: SINHALA ARCHAIC DIGIT SEVEN	
 𑇨	8	8		8̱	8		No	a	historical number						U+111E8: SINHALA ARCHAIC DIGIT EIGHT	
 𑇩	9	9		9̱	9		No	a	historical number						U+111E9: SINHALA ARCHAIC DIGIT NINE	
-අ	A	a ə		ạ	a	w	Lo		śuddha independent vowel						U+0D85: SINHALA LETTER AYANNA	✓
-ආ	A	aː a		ạ̄	ā	d	Lo		śuddha independent vowel		ා				U+0D86: SINHALA LETTER AAYANNA	✓
-ඇ	A	æ		æ̣	æ	e	Lo		śuddha independent vowel		ැ				U+0D87: SINHALA LETTER AEYANNA	✓
-ඈ	A	æː		ǣ̣	ǣ		Lo		śuddha independent vowel		ෑ				U+0D88: SINHALA LETTER AEEYANNA	✓
-ා	a	aː a		ā	ā	d	Mc		śuddha vowel sign			ආ	ඇලපිල්ල	æ̣lapil͓la	U+0DCF: SINHALA VOWEL SIGN AELA-PILLA	✓
-ැ	a	æ		æ	æ	e	Mc		śuddha vowel sign			ඇ	ඇදය	æ̣daya	U+0DD0: SINHALA VOWEL SIGN KETTI AEDA-PILLA	✓
-ෑ	a	æː		ǣ	ǣ	E	Mc		śuddha vowel sign			ඈ	දිග ඇදය	diga æ̣daya	U+0DD1: SINHALA VOWEL SIGN DIGA AEDA-PILLA	✓
-ඓ	A	ɑj		ạʲ	ai	t	Lo		miśra independent vowel		ෛ				U+0D93: SINHALA LETTER AIYANNA	✓
-ඖ	A	ɑw		ạʷ	au		Lo		miśra independent vowel		ෞ				U+0D96: SINHALA LETTER AUYANNA	✓
-ෛ	a	ɑj		aʲ	ai	f	Mc		miśra vowel sign			ඓ	කොම්බු දෙක	kom͓bu deka	U+0DDB: SINHALA VOWEL SIGN KOMBU DEKA	✓
-ෞ	a	ɑw		aʷ	au		Mc		miśra vowel sign			ඖ	කොම්බුව සහ ගයනුකිත්ත	kom͓buva saha gayaṅukit͓ta	U+0DDE: SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA	✓
-\u0DD9\u0DDF	a	ɑw		el̥	au				ෞ						U+0DD9 U+0DDF: SINHALA VOWEL SIGN KOMBUVA, VOWEL SIGN GAYANUKITTA	
-බ	b	b	a ə	b	b	n	Lo		śuddha consonant						U+0DB6: SINHALA LETTER ALPAPRAANA BAYANNA	✓
-භ	B	b	a ə	bʰ	bh	N	Lo		miśra consonant						U+0DB7: SINHALA LETTER MAHAAPRAANA BAYANNA	✓
-ච	c	t͡ʃ	a ə	ʧ	c	p	Lo		śuddha consonant						U+0DA0: SINHALA LETTER ALPAPRAANA CAYANNA	✓
-ඡ	C	t͡ʃ	a ə	ʧʰ	ch	P	Lo		miśra consonant						U+0DA1: SINHALA LETTER MAHAAPRAANA CAYANNA	✓
-ජ	d	d͡ʒ	a ə	ʤ	j	c	Lo		śuddha consonant						U+0DA2: SINHALA LETTER ALPAPRAANA JAYANNA	✓
-ඩ	d	ɖ	a ə	ɖ	ḍ	v	Lo		śuddha consonant						U+0DA9: SINHALA LETTER ALPAPRAANA DDAYANNA	✓
-ඣ	D	d͡ʒ	a ə	ʤʰ	jh	C	Lo		miśra consonant						U+0DA3: SINHALA LETTER MAHAAPRAANA JAYANNA	✓
-ඪ	D	ɖ	a ə	ɖʰ	ḍh	V	Lo		miśra consonant						U+0DAA: SINHALA LETTER MAHAAPRAANA DDAYANNA	✓
-ද	d¶	d	a ə	d	d	o	Lo		śuddha consonant						U+0DAF: SINHALA LETTER ALPAPRAANA DAYANNA	✓
-ධ	D¶	d	a ə	dʰ	dh	O	Lo		miśra consonant						U+0DB0: SINHALA LETTER MAHAAPRAANA DAYANNA	✓
-එ	E	e		ẹ	e	t	Lo		śuddha independent vowel		ෙ				U+0D91: SINHALA LETTER EYANNA	✓
-ඒ	E	eː		ẹ̄	ē		Lo		śuddha independent vowel		ේ				U+0D92: SINHALA LETTER EEYANNA	✓
-ෙ	e	e		e	e	f	Mc		śuddha vowel sign			එ	කොම්බුව	kom͓buva	U+0DD9: SINHALA VOWEL SIGN KOMBUVA	✓
-ේ	e	eː		ē	ē	a	Mc		śuddha vowel sign			ඒ	කොම්බුව සහ හල්කිරීම	kom͓buva saha hal͓kirīma	U+0DDA: SINHALA VOWEL SIGN DIGA KOMBUVA	✓
-\u0DD9\u0DCA	e	eː		e͓	ē				ේ						U+0DD9 U+0DCA: SINHALA VOWEL SIGN KOMBUVA, SIGN AL-LAKUNA	
-ෆ	f	f	a ə	f	f	F	Lo		miśra consonant						U+0DC6: SINHALA LETTER FAYANNA	✓
-ග	g	g	a ə	g	g	.	Lo		śuddha consonant						U+0D9C: SINHALA LETTER ALPAPRAANA GAYANNA	✓
-ඝ	G	g	a ə	gʰ	gh	>	Lo		miśra consonant						U+0D9D: SINHALA LETTER MAHAAPRAANA GAYANNA	✓
-හ	h	ɦ	a ə	h	h	y	Lo		śuddha consonant						U+0DC4: SINHALA LETTER HAYANNA	✓
-ඃ	h	?		h̽	h		Mc		visarga						U+0D83: SINHALA SIGN VISARGAYA	✓
-ඉ	I	i		ị	i	b	Lo		śuddha independent vowel		ි				U+0D89: SINHALA LETTER IYANNA	✓
-ඊ	I	iː		ị̄	ī	B	Lo		śuddha independent vowel		ී				U+0D8A: SINHALA LETTER IIYANNA	✓
-ි	i	i		i	i	s	Mn		śuddha vowel sign			ඉ	ඉස්පිල්ල	ịs͓pil͓la	U+0DD2: SINHALA VOWEL SIGN KETTI IS-PILLA	✓
-ී	i	iː		ī	ī	S	Mn		śuddha vowel sign			ඊ	දිග ඉස්පිල්ල	diga ịs͓pil͓la	U+0DD3: SINHALA VOWEL SIGN DIGA IS-PILLA	✓
-ක	k	k	a ə	k	k	l	Lo		śuddha consonant						U+0D9A: SINHALA LETTER ALPAPRAANA KAYANNA	✓
-ඛ	K	k	a ə	kʰ	kh	L	Lo		miśra consonant						U+0D9B: SINHALA LETTER MAHAAPRAANA KAYANNA	✓
-ල	l	l	a ə	l	l	,	Lo		śuddha consonant						U+0DBD: SINHALA LETTER DANTAJA LAYANNA	✓
-ළ	l	l	a ə	ɭ	ḷ	<	Lo		śuddha consonant						U+0DC5: SINHALA LETTER MUURDHAJA LAYANNA	✓
-ඏ	L	li		l̥̣			Lo	a	miśra independent vowel		ෟ				U+0D8F: SINHALA LETTER ILUYANNA	✓
-ඐ	L	liː		l̥̣̄			Lo	a	miśra independent vowel		ෳ				U+0D90: SINHALA LETTER ILUUYANNA	✓
-ෟ	L	li		l̥		A	Mc	x	miśra vowel sign			ඏ	ගයනුකිත්ත	gayaṅukit͓ta	U+0DDF: SINHALA VOWEL SIGN GAYANUKITTA	✓
-ෳ	L	liː		l̥̄			Mc	a	miśra vowel sign			ඐ			U+0DF3: SINHALA VOWEL SIGN DIGA GAYANUKITTA	✓
-ම	m	m	a ə	m	m	u	Lo		śuddha consonant						U+0DB8: SINHALA LETTER MAYANNA	✓
-ඹ	M	ᵐb	a ə	ᵐb	m̌b	U	Lo		śuddha prenasalised consonant						U+0DB9: SINHALA LETTER AMBA BAYANNA	✓
-ඟ	N	ᵑɡ	a ə	ᵑɡ	ňg		Lo		śuddha prenasalised consonant						U+0D9F: SINHALA LETTER SANYAKA GAYANNA	✓
-ණ	n	n	a ə	n	ṇ	K	Lo		śuddha consonant						U+0DAB: SINHALA LETTER MUURDHAJA NAYANNA	✓
-ඬ	N	ⁿɖ	a ə	ⁿɖ	ňḍ	l	Lo		śuddha prenasalised consonant						U+0DAC: SINHALA LETTER SANYAKA DDAYANNA	✓
-ඳ	N	ⁿd	a ə	ⁿd	ňd		Lo		śuddha prenasalised consonant						U+0DB3: SINHALA LETTER SANYAKA DAYANNA	✓
-ඥ	n	ɲ ɡn	a ə	ᵑǰ	jñ	{	Lo		miśra prenasalised consonant						U+0DA5: SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA	✓
-ඞ	n	ŋ	a ə	ŋ	ṅ	X	Lo		miśra consonant						U+0D9E: SINHALA LETTER KANTAJA NAASIKYAYA	✓
-ඤ	n	ɲ	a ə	ɲ	ñ	[	Lo	a	miśra consonant						U+0DA4: SINHALA LETTER TAALUJA NAASIKYAYA	✓
-ඦ	N	nd͡ʒ	a ə	ⁿʤ	n̆j		Lo	a	miśra prenasalised consonant						U+0DA6: SINHALA LETTER SANYAKA JAYANNA	✓
-න	n	n	a ə	ṅ	n	k	Lo		miśra consonant						U+0DB1: SINHALA LETTER DANTAJA NAYANNA	✓
-ං	n	ŋ		ŋ̽	n	x	Mc		anusvara					binduva	U+0D82: SINHALA SIGN ANUSVARAYA	✓
-ඔ	O	o		ọ	o	T	Lo		śuddha independent vowel		ො				U+0D94: SINHALA LETTER OYANNA	✓
-ඕ	O	oː		ọ̄	ō		Lo		śuddha independent vowel		ෝ				U+0D95: SINHALA LETTER OOYANNA	✓
-ො	o	o		o	o		Mc		śuddha vowel sign			ඔ	කොම්බුව සහ ඇලපිල්ල	kom͓buva saha æ̣lapil͓la	U+0DDC: SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA	✓
-ෝ	o	oː		ō	ō		Mc		śuddha vowel sign			ඕ	කොම්බුව සහ හල්ඇලපිල්ල	kom͓buva saha hal͓æ̣lapil͓la	U+0DDD: SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA	✓
-\u0DD9\u0DCF	o	o		eā	o				ො						U+0DD9 U+0DCF: SINHALA VOWEL SIGN KOMBUVA, VOWEL SIGN AELA-PILLA	
-\u0DDC\u0DCA	o	oː		o͓	ō				ෝ						U+0DDC U+0DCA: SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA, SIGN AL-LAKUNA	
-\u{DD9}\u{DCF}\u{DCA}	o	oː		eā͓	ō				ෝ						U+0DD9 U+0DCF U+0DCA: SINHALA VOWEL SIGN KOMBUVA, VOWEL SIGN AELA-PILLA, SIGN AL-LAKUNA	
+																
 ප	p	p	a ə	p	p	m	Lo		śuddha consonant						U+0DB4: SINHALA LETTER ALPAPRAANA PAYANNA	✓
 ඵ	P	p	a ə	pʰ	ph	M	Lo		miśra consonant						U+0DB5: SINHALA LETTER MAHAAPRAANA PAYANNA	✓
-ර	r	r	a ə	r	r	r	Lo		śuddha consonant						U+0DBB: SINHALA LETTER RAYANNA	✓
-ඍ	R	ri ru		r̥̣		R	Lo		miśra independent vowel		ෘ				U+0D8D: SINHALA LETTER IRUYANNA	✓
-ඎ	R	riː ruː		r̥̣̄			Lo	a	miśra independent vowel		ෲ				U+0D8E: SINHALA LETTER IRUUYANNA	✓
-ෘ	R	ri ru		r̥		D	Mc		miśra vowel sign			ඍ	ගැටය සහිත ඇලපිල්ල	gæʈaya sahita æ̣lapil͓la	U+0DD8: SINHALA VOWEL SIGN GAETTA-PILLA	✓
-ෲ	R	riː ruː		r̥̄			Mc	a	miśra vowel sign			ඎ	ගැටය සහිත ඇලපිලි දෙක	gæʈaya sahita æ̣lapili deka	U+0DF2: SINHALA VOWEL SIGN DIGA GAETTA-PILLA	✓
+ඹ	M	ᵐb	a ə	ᵐb	m̌b	U	Lo		śuddha prenasalised consonant						U+0DB9: SINHALA LETTER AMBA BAYANNA	✓
+බ	b	b	a ə	b	b	n	Lo		śuddha consonant						U+0DB6: SINHALA LETTER ALPAPRAANA BAYANNA	✓
+භ	B	b	a ə	bʰ	bh	N	Lo		miśra consonant						U+0DB7: SINHALA LETTER MAHAAPRAANA BAYANNA	✓
+ත	t¶	t	a ə	t	t	;	Lo		śuddha consonant						U+0DAD: SINHALA LETTER ALPAPRAANA TAYANNA	✓
+ථ	T¶	t	a ə	tʰ	th	:	Lo		miśra consonant						U+0DAE: SINHALA LETTER MAHAAPRAANA TAYANNA	✓
+ච	c	t͡ʃ	a ə	ʧ	c	p	Lo		śuddha consonant						U+0DA0: SINHALA LETTER ALPAPRAANA CAYANNA	✓
+ඡ	C	t͡ʃ	a ə	ʧʰ	ch	P	Lo		miśra consonant						U+0DA1: SINHALA LETTER MAHAAPRAANA CAYANNA	✓
+ද	d¶	d	a ə	d	d	o	Lo		śuddha consonant						U+0DAF: SINHALA LETTER ALPAPRAANA DAYANNA	✓
+ධ	D¶	d	a ə	dʰ	dh	O	Lo		miśra consonant						U+0DB0: SINHALA LETTER MAHAAPRAANA DAYANNA	✓
+ඳ	N	ⁿd	a ə	ⁿd	ňd		Lo		śuddha prenasalised consonant						U+0DB3: SINHALA LETTER SANYAKA DAYANNA	✓
+ජ	d	d͡ʒ	a ə	ʤ	j	c	Lo		śuddha consonant						U+0DA2: SINHALA LETTER ALPAPRAANA JAYANNA	✓
+ඣ	D	d͡ʒ	a ə	ʤʰ	jh	C	Lo		miśra consonant						U+0DA3: SINHALA LETTER MAHAAPRAANA JAYANNA	✓
+ඦ	N	ᶮd͡ʒ	a ə	ⁿʤ	n̆j		Lo	a	miśra prenasalised consonant						U+0DA6: SINHALA LETTER SANYAKA JAYANNA	✓
+ට	t	ʈ	a ə	ʈ	ṭ	g	Lo		śuddha consonant						U+0DA7: SINHALA LETTER ALPAPRAANA TTAYANNA	✓
+ඨ	T	ʈ	a ə	ʈʰ	ṭh	G	Lo		miśra consonant						U+0DA8: SINHALA LETTER MAHAAPRAANA TTAYANNA	✓
+ඩ	d	ɖ	a ə	ɖ	ḍ	v	Lo		śuddha consonant						U+0DA9: SINHALA LETTER ALPAPRAANA DDAYANNA	✓
+ඪ	D	ɖ	a ə	ɖʰ	ḍh	V	Lo		miśra consonant						U+0DAA: SINHALA LETTER MAHAAPRAANA DDAYANNA	✓
+ඬ	N	ⁿɖ	a ə	ⁿɖ	ňḍ	l	Lo		śuddha prenasalised consonant						U+0DAC: SINHALA LETTER SANYAKA DDAYANNA	✓
+ක	k	k	a ə	k	k	l	Lo		śuddha consonant						U+0D9A: SINHALA LETTER ALPAPRAANA KAYANNA	✓
+ඛ	K	k	a ə	kʰ	kh	L	Lo		miśra consonant						U+0D9B: SINHALA LETTER MAHAAPRAANA KAYANNA	✓
+ග	g	g	a ə	g	g	.	Lo		śuddha consonant						U+0D9C: SINHALA LETTER ALPAPRAANA GAYANNA	✓
+ඝ	G	g	a ə	gʰ	gh	>	Lo		miśra consonant						U+0D9D: SINHALA LETTER MAHAAPRAANA GAYANNA	✓
+ඟ	N	ᵑɡ	a ə	ᵑɡ	ňg		Lo		śuddha prenasalised consonant						U+0D9F: SINHALA LETTER SANYAKA GAYANNA	✓
+ෆ	f	f	a ə	f	f	F	Lo		miśra consonant						U+0DC6: SINHALA LETTER FAYANNA	✓
 ස	s	s	a ə	s	s	i	Lo		śuddha consonant						U+0DC3: SINHALA LETTER DANTAJA SAYANNA	✓
 ශ	s	ʃ	a ə	ʃ	ś	Y	Lo		miśra consonant						U+0DC1: SINHALA LETTER TAALUJA SAYANNA	✓
 ෂ	s	ʃ	a ə	ʃ̇	ṣ	I	Lo		miśra consonant						U+0DC2: SINHALA LETTER MUURDHAJA SAYANNA	✓
-ට	t	ʈ	a ə	ʈ	ṭ	g	Lo		śuddha consonant						U+0DA7: SINHALA LETTER ALPAPRAANA TTAYANNA	✓
-ඨ	T	ʈ	a ə	ʈʰ	ṭh	G	Lo		miśra consonant						U+0DA8: SINHALA LETTER MAHAAPRAANA TTAYANNA	✓
-ත	t¶	t	a ə	t	t	;	Lo		śuddha consonant						U+0DAD: SINHALA LETTER ALPAPRAANA TAYANNA	✓
-ථ	T¶	t	a ə	tʰ	th	:	Lo		miśra consonant						U+0DAE: SINHALA LETTER MAHAAPRAANA TAYANNA	✓
-උ	U	u		ụ	u	W	Lo		śuddha independent vowel		ු				U+0D8B: SINHALA LETTER UYANNA	✓
-ඌ	U	uː		ụ̄	ū		Lo		śuddha independent vowel		ූ				U+0D8C: SINHALA LETTER UUYANNA	✓
-ු	u	u		u	u	q	Mn		śuddha vowel sign			උ	පාපිල්ල	pāpil͓la	U+0DD4: SINHALA VOWEL SIGN KETTI PAA-PILLA	✓
-ූ	u	uː		ū	ū	Q	Mn		śuddha vowel sign			ඌ	දිග පාපිල්ල	diga pāpil͓la	U+0DD6: SINHALA VOWEL SIGN DIGA PAA-PILLA	✓
+හ	h	ɦ	a ə	h	h	y	Lo		śuddha consonant						U+0DC4: SINHALA LETTER HAYANNA	✓
+ඃ	h	?		h̽	h		Mc		visarga						U+0D83: SINHALA SIGN VISARGAYA	✓
+ම	m	m	a ə	m	m	u	Lo		śuddha consonant						U+0DB8: SINHALA LETTER MAYANNA	✓
+ණ	n	n	a ə	n	ṇ	K	Lo		śuddha consonant						U+0DAB: SINHALA LETTER MUURDHAJA NAYANNA	✓
+න	n	n	a ə	ṅ	n	k	Lo		miśra consonant						U+0DB1: SINHALA LETTER DANTAJA NAYANNA	✓
+ඤ	n	ɲ	a ə	ɲ	ñ	[	Lo	a	miśra consonant						U+0DA4: SINHALA LETTER TAALUJA NAASIKYAYA	✓
+ඥ	n	ɲ ɡn	a ə	ᵑǰ	jñ	{	Lo		miśra prenasalised consonant						U+0DA5: SINHALA LETTER TAALUJA SANYOOGA NAAKSIKYAYA	✓
+ඞ	n	ŋ	a ə	ŋ	ṅ	X	Lo		miśra consonant						U+0D9E: SINHALA LETTER KANTAJA NAASIKYAYA	✓
+ං	n	ŋ  m̃		ŋ̽	n	x	Mc		nasal coda (anusvara)					binduva	U+0D82: SINHALA SIGN ANUSVARAYA	✓
 ව	v	ʋ	a ə	v	v	j	Lo		śuddha consonant						U+0DC0: SINHALA LETTER VAYANNA	✓
-්	x			͞		a	Mn		virama				හල් කිරිම	hal͓ kirima	U+0DCA: SINHALA SIGN AL-LAKUNA	✓
+ර	r	r	a ə	r	r	r	Lo		śuddha consonant						U+0DBB: SINHALA LETTER RAYANNA	✓
+ල	l	l	a ə	l	l	,	Lo		śuddha consonant						U+0DBD: SINHALA LETTER DANTAJA LAYANNA	✓
+ළ	l	ɭ	a ə	ɭ	ḷ	<	Lo		śuddha consonant						U+0DC5: SINHALA LETTER MUURDHAJA LAYANNA	✓
 ය	y	j	a ə	y	y	h	Lo		śuddha consonant						U+0DBA: SINHALA LETTER YAYANNA	✓
+																
+්	x			͞		a	Mn		virama				හල් කිරිම	hal͓ kirima	U+0DCA: SINHALA SIGN AL-LAKUNA	✓
 ්ය				–		H									U+0DCA U+0DBA: SINHALA SIGN AL-LAKUNA, LETTER YAYANNA	
 ළු				–		J									U+0DC5 U+0DD4: SINHALA LETTER MUURDHAJA LAYANNA, VOWEL SIGN KETTI PAA-PILLA	
 ්ර				–											U+0DCA U+0DBB: SINHALA SIGN AL-LAKUNA, LETTER RAYANNA	
 ර්				–		~									U+0DBB U+0DCA: SINHALA LETTER RAYANNA, SIGN AL-LAKUNA	
-\'				–		z		u							U+0027: APOSTROPHE	
+																
+ඍ	R	ri ru		r̥̣		R	Lo		miśra independent vowel		ෘ				U+0D8D: SINHALA LETTER IRUYANNA	✓
+ඎ	R	riː ruː		r̥̣̄			Lo	a	miśra independent vowel		ෲ				U+0D8E: SINHALA LETTER IRUUYANNA	✓
+ෘ	R	ri ru		r̥		D	Mc		miśra vowel sign			ඍ	ගැටය සහිත ඇලපිල්ල	gæʈaya sahita æ̣lapil͓la	U+0DD8: SINHALA VOWEL SIGN GAETTA-PILLA	✓
+ෲ	R	riː ruː		r̥̄			Mc	a	miśra vowel sign			ඎ	ගැටය සහිත ඇලපිලි දෙක	gæʈaya sahita æ̣lapili deka	U+0DF2: SINHALA VOWEL SIGN DIGA GAETTA-PILLA	✓
+ඏ	L	li		l̥̣			Lo	a	miśra independent vowel		ෟ				U+0D8F: SINHALA LETTER ILUYANNA	✓
+ඐ	L	liː		l̥̣̄			Lo	a	miśra independent vowel		ෳ				U+0D90: SINHALA LETTER ILUUYANNA	✓
+ෟ	L	li		l̥		A	Mc	x	miśra vowel sign			ඏ	ගයනුකිත්ත	gayaṅukit͓ta	U+0DDF: SINHALA VOWEL SIGN GAYANUKITTA	✓
+ෳ	L	liː		l̥̄			Mc	a	miśra vowel sign			ඐ			U+0DF3: SINHALA VOWEL SIGN DIGA GAYANUKITTA	✓
+																
+ි	i	i		i	i	s	Mn		śuddha vowel sign			ඉ	ඉස්පිල්ල	ịs͓pil͓la	U+0DD2: SINHALA VOWEL SIGN KETTI IS-PILLA	✓
+ඉ	I	i		ị	i	b	Lo		śuddha independent vowel		ි				U+0D89: SINHALA LETTER IYANNA	✓
+ී	i	iː		ī	ī	S	Mn		śuddha vowel sign			ඊ	දිග ඉස්පිල්ල	diga ịs͓pil͓la	U+0DD3: SINHALA VOWEL SIGN DIGA IS-PILLA	✓
+ඊ	I	iː		ị̄	ī	B	Lo		śuddha independent vowel		ී				U+0D8A: SINHALA LETTER IIYANNA	✓
+ු	u	u		u	u	q	Mn		śuddha vowel sign			උ	පාපිල්ල	pāpil͓la	U+0DD4: SINHALA VOWEL SIGN KETTI PAA-PILLA	✓
+උ	U	u		ụ	u	W	Lo		śuddha independent vowel		ු				U+0D8B: SINHALA LETTER UYANNA	✓
+ූ	u	uː		ū	ū	Q	Mn		śuddha vowel sign			ඌ	දිග පාපිල්ල	diga pāpil͓la	U+0DD6: SINHALA VOWEL SIGN DIGA PAA-PILLA	✓
+ඌ	U	uː		ụ̄	ū		Lo		śuddha independent vowel		ූ				U+0D8C: SINHALA LETTER UUYANNA	✓
+ෙ	e	e		e	e	f	Mc		śuddha vowel sign			එ	කොම්බුව	kom͓buva	U+0DD9: SINHALA VOWEL SIGN KOMBUVA	✓
+එ	E	e		ẹ	e	t	Lo		śuddha independent vowel		ෙ				U+0D91: SINHALA LETTER EYANNA	✓
+ේ	e	eː		ē	ē	a	Mc		śuddha vowel sign			ඒ	කොම්බුව සහ හල්කිරීම	kom͓buva saha hal͓kirīma	U+0DDA: SINHALA VOWEL SIGN DIGA KOMBUVA	✓
+\u0DD9\u0DCA	e	eː		e͓	ē				ේ						U+0DD9 U+0DCA: SINHALA VOWEL SIGN KOMBUVA, SIGN AL-LAKUNA	
+ඒ	E	eː		ẹ̄	ē		Lo		śuddha independent vowel		ේ				U+0D92: SINHALA LETTER EEYANNA	✓
+ො	o	o		o	o		Mc		śuddha vowel sign			ඔ	කොම්බුව සහ ඇලපිල්ල	kom͓buva saha æ̣lapil͓la	U+0DDC: SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA	✓
+ඔ	O	o		ọ	o	T	Lo		śuddha independent vowel		ො				U+0D94: SINHALA LETTER OYANNA	✓
+ෝ	o	oː		ō	ō		Mc		śuddha vowel sign			ඕ	කොම්බුව සහ හල්ඇලපිල්ල	kom͓buva saha hal͓æ̣lapil͓la	U+0DDD: SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA	✓
+\u0DD9\u0DCF	o	o		eā	o				ො						U+0DD9 U+0DCF: SINHALA VOWEL SIGN KOMBUVA, VOWEL SIGN AELA-PILLA	
+\u0DDC\u0DCA	o	oː		o͓	ō				ෝ						U+0DDC U+0DCA: SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA, SIGN AL-LAKUNA	
+\u{DD9}\u{DCF}\u{DCA}	o	oː		eā͓	ō				ෝ						U+0DD9 U+0DCF U+0DCA: SINHALA VOWEL SIGN KOMBUVA, VOWEL SIGN AELA-PILLA, SIGN AL-LAKUNA	
+ඕ	O	oː		ọ̄	ō		Lo		śuddha independent vowel		ෝ				U+0D95: SINHALA LETTER OOYANNA	✓
+ැ	a	æ		æ	æ	e	Mc		śuddha vowel sign			ඇ	ඇදය	æ̣daya	U+0DD0: SINHALA VOWEL SIGN KETTI AEDA-PILLA	✓
+ඇ	A	æ		æ̣	æ	e	Lo		śuddha independent vowel		ැ				U+0D87: SINHALA LETTER AEYANNA	✓
+ෑ	a	æː		ǣ	ǣ	E	Mc		śuddha vowel sign			ඈ	දිග ඇදය	diga æ̣daya	U+0DD1: SINHALA VOWEL SIGN DIGA AEDA-PILLA	✓
+ඈ	A	æː		ǣ̣	ǣ		Lo		śuddha independent vowel		ෑ				U+0D88: SINHALA LETTER AEEYANNA	✓
+අ	A	a		ạ	a	w	Lo		śuddha independent vowel						U+0D85: SINHALA LETTER AYANNA	✓
+ා	a	aː		ā	ā	d	Mc		śuddha vowel sign			ආ	ඇලපිල්ල	æ̣lapil͓la	U+0DCF: SINHALA VOWEL SIGN AELA-PILLA	✓
+ආ	A	aː a		ạ̄	ā	d	Lo		śuddha independent vowel		ා				U+0D86: SINHALA LETTER AAYANNA	✓
+																
+ෛ	a	ɑj		aʲ	ai	f	Mc		miśra vowel sign			ඓ	කොම්බු දෙක	kom͓bu deka	U+0DDB: SINHALA VOWEL SIGN KOMBU DEKA	✓
+ඓ	A	ɑj		ạʲ	ai	t	Lo		miśra independent vowel		ෛ				U+0D93: SINHALA LETTER AIYANNA	✓
+ෞ	a	ɑw		aʷ	au		Mc		miśra vowel sign			ඖ	කොම්බුව සහ ගයනුකිත්ත	kom͓buva saha gayaṅukit͓ta	U+0DDE: SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA	✓
+\u0DD9\u0DDF	a	ɑw		el̥	au				ෞ						U+0DD9 U+0DDF: SINHALA VOWEL SIGN KOMBUVA, VOWEL SIGN GAYANUKITTA	
+ඖ	A	ɑw		ạʷ	au		Lo		miśra independent vowel		ෞ				U+0D96: SINHALA LETTER AUYANNA	✓
+																
+'				–		z		u							U+0027: APOSTROPHE	
 "				–		Z		u							U+0022: QUOTATION MARK	
 ʼ				ʼ	ʼ		Lm	?	apostrophe						U+02BC: MODIFIER LETTER APOSTROPHE	
 §				§	§		Po	?	section sign						U+00A7: SECTION SIGN	

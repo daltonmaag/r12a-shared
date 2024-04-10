@@ -42,49 +42,50 @@ var spreadsheet = `lisu-lis	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ’	>			\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
 														
 														
-ꓮ	a	ɑ		ɑ	a	a	Lo		vowel				U+A4EE: LISU LETTER A	✓
-ˍ	a			ä	ä	q	Lm		vowel				U+02CD: MODIFIER LETTER LOW MACRON	
-ꓐ	b	b	a	b	b	b	Lo		consonant				U+A4D0: LISU LETTER BA	✓
-ꓓ	d	d	a	d	d	d	Lo		consonant				U+A4D3: LISU LETTER DA	✓
-ꓜ	d	d͡z	a	ʣ	dz	z	Lo		consonant				U+A4DC: LISU LETTER DZA	✓
-ꓙ	d	d͡ʑ	a	ʥ	j	j	Lo		consonant				U+A4D9: LISU LETTER JA	✓
-ꓯ	e	ɛ		ɛ	á	A	Lo		vowel				U+A4EF: LISU LETTER AE	✓
-ꓷ	e	ə		ə	rghe	D	Lo		vowel				U+A4F7: LISU LETTER OE	✓
-ꓰ	e	e		e	ye	e	Lo		vowel				U+A4F0: LISU LETTER E	✓
-ꓩ	f	f	a	f	f	J	Lo		consonant				U+A4E9: LISU LETTER FA	✓
-ꓖ	g	ɡ	a	ɡ	ɡ	g	Lo		consonant				U+A4D6: LISU LETTER GA	✓
-ꓨ	h	ɦ	a	ɦ	h	G	Lo		consonant				U+A4E8: LISU LETTER HHA	✓
-ꓦ	h	h	a	h	hʼ	v	Lo		consonant				U+A4E6: LISU LETTER HA	✓
-ꓲ	i	i		i	i	i	Lo		vowel				U+A4F2: LISU LETTER I	✓
-ꓗ	k	k	a	k	k	k	Lo		consonant				U+A4D7: LISU LETTER KA	✓
-ꓘ	k	kʰ	a	kʰ	hk	K	Lo		consonant				U+A4D8: LISU LETTER KHA	✓
-ꓡ	l	l	a	l	l	l	Lo		consonant				U+A4E1: LISU LETTER LA	✓
-ꓟ	m	m	a	m	m	m	Lo		consonant				U+A4DF: LISU LETTER MA	✓
-ꓠ	n	n	a	n	n	n	Lo		consonant				U+A4E0: LISU LETTER NA	✓
-ꓥ	n	ŋ	a	ŋ	ng	V	Lo		consonant				U+A4E5: LISU LETTER NGA	✓
-ʼ	n	̃		ñ	ñ		Lm		vowel				U+02BC: MODIFIER LETTER APOSTROPHE	
-ꓱ	o	ø		ø	ē	E	Lo		vowel				U+A4F1: LISU LETTER EU	✓
-ꓳ	o	o		o	aw	o	Lo		vowel				U+A4F3: LISU LETTER O	✓
 ꓑ	p	p	a	p	p	p	Lo		consonant				U+A4D1: LISU LETTER PA	✓
 ꓒ	p	pʰ	a	pʰ	hp	P	Lo		consonant				U+A4D2: LISU LETTER PHA	✓
-ꓢ	s	s	a	s	s	s	Lo		consonant				U+A4E2: LISU LETTER SA	✓
-ꓫ	S	ʃ	a	ʃ	sh	x	Lo		consonant				U+A4EB: LISU LETTER SHA	✓
+ꓐ	b	b	a	b	b	b	Lo		consonant				U+A4D0: LISU LETTER BA	✓
 ꓔ	t	t	a	t	t	t	Lo		consonant				U+A4D4: LISU LETTER TA	✓
 ꓕ	t	tʰ	a	tʰ	ht	T	Lo		consonant				U+A4D5: LISU LETTER THA	✓
 ꓝ	t	t͡s	a	ʦ	ts	f	Lo		consonant				U+A4DD: LISU LETTER TSA	✓
 ꓞ	t	ʦʰ	a	ʦʰ	hts	F	Lo		consonant				U+A4DE: LISU LETTER TSHA	✓
 ꓚ	t	t͡ɕ	a	ʨ	ch	c	Lo		consonant				U+A4DA: LISU LETTER CA	✓
 ꓛ	t	t͡ɕʰ	a	ʨʰ	hch	C	Lo		consonant				U+A4DB: LISU LETTER CHA	✓
-ꓶ	u	ɯ		ɯ	rgh	L	Lo		vowel				U+A4F6: LISU LETTER UH	✓
-ꓴ	u	u		u	u	u	Lo		vowel				U+A4F4: LISU LETTER U	✓
-ꓪ	w	w	a	w	v	w	Lo		consonant/vowel				U+A4EA: LISU LETTER WA	✓
+ꓓ	d	d	a	d	d	d	Lo		consonant				U+A4D3: LISU LETTER DA	✓
+ꓜ	d	d͡z	a	ʣ	dz	z	Lo		consonant				U+A4DC: LISU LETTER DZA	✓
+ꓙ	d	d͡ʑ	a	ʥ	j	j	Lo		consonant				U+A4D9: LISU LETTER JA	✓
+ꓗ	k	k	a	k	k	k	Lo		consonant				U+A4D7: LISU LETTER KA	✓
+ꓘ	k	kʰ	a	kʰ	hk	K	Lo		consonant				U+A4D8: LISU LETTER KHA	✓
+ꓖ	g	ɡ	a	ɡ	ɡ	g	Lo		consonant				U+A4D6: LISU LETTER GA	✓
+ꓩ	f	f	a	f	f	J	Lo		consonant				U+A4E9: LISU LETTER FA	✓
+ꓢ	s	s	a	s	s	s	Lo		consonant				U+A4E2: LISU LETTER SA	✓
+ꓤ	z	z	a	z	z	r	Lo		consonant				U+A4E4: LISU LETTER ZA	✓
+ꓫ	S	ʃ	a	ʃ	sh	x	Lo		consonant				U+A4EB: LISU LETTER SHA	✓
+ꓣ	z	ʒ	a	ʒ	r	R	Lo		consonant				U+A4E3: LISU LETTER ZHA	✓
 ꓧ	x	x	a	x	hh	h	Lo		consonant				U+A4E7: LISU LETTER XA	✓
 ꓭ	y	ɣ	a	ɣ	rgha	B	Lo		consonant/vowel				U+A4ED: LISU LETTER GHA	✓
-ꓵ	y	y		y	ü	U	Lo		vowel				U+A4F5: LISU LETTER UE	✓
-ꓤ	z	z	a	z	z	r	Lo		consonant				U+A4E4: LISU LETTER ZA	✓
-ꓣ	z	ʒ	a	ʒ	r	R	Lo		consonant				U+A4E3: LISU LETTER ZHA	✓
-ꓬ	j	j	a	j	y	y	Lo		consonant/vowel				U+A4EC: LISU LETTER YA	✓
+ꓦ	h	h	a	h	hʼ	v	Lo		consonant				U+A4E6: LISU LETTER HA	✓
+ꓨ	h	ɦ	a	ɦ	h	G	Lo		consonant				U+A4E8: LISU LETTER HHA	✓
+ꓟ	m	m	a	m	m	m	Lo		consonant				U+A4DF: LISU LETTER MA	✓
+ꓠ	n	n	a	n	n	n	Lo		consonant				U+A4E0: LISU LETTER NA	✓
 ꓠꓬ	n	ɲ	a	nj					digraph				U+A4E0 U+A4EC: LISU LETTER NA, LISU LETTER YA	
+ꓥ	n	ŋ	a	ŋ	ng	V	Lo		consonant				U+A4E5: LISU LETTER NGA	✓
+ꓪ	w	w	a	w	v	w	Lo		consonant/semivowel				U+A4EA: LISU LETTER WA	✓
+ꓡ	l	l	a	l	l	l	Lo		consonant				U+A4E1: LISU LETTER LA	✓
+ꓬ	j	j	a	j	y	y	Lo		consonant/semivowel				U+A4EC: LISU LETTER YA	✓
+														
+ꓲ	i	i		i	i	i	Lo		vowel				U+A4F2: LISU LETTER I	✓
+ꓵ	y	y		y	ü	U	Lo		vowel				U+A4F5: LISU LETTER UE	✓
+ꓶ	u	ɯ		ɯ	rgh	L	Lo		vowel				U+A4F6: LISU LETTER UH	✓
+ꓴ	u	u		u	u	u	Lo		vowel				U+A4F4: LISU LETTER U	✓
+ꓰ	e	e		e	ye	e	Lo		vowel				U+A4F0: LISU LETTER E	✓
+ꓱ	o	ø		ø	ē	E	Lo		vowel				U+A4F1: LISU LETTER EU	✓
+ꓳ	o	o		o	aw	o	Lo		vowel				U+A4F3: LISU LETTER O	✓
+ꓯ	e	ɛ		ɛ	á	A	Lo		vowel				U+A4EF: LISU LETTER AE	✓
+ꓷ	e	ə		ə	rghe	D	Lo		vowel				U+A4F7: LISU LETTER OE	✓
+ꓮ	a	ɑ		ɑ	a	a	Lo		vowel				U+A4EE: LISU LETTER A	✓
+ˍ	a			ä	ä	q	Lm		vowel				U+02CD: MODIFIER LETTER LOW MACRON	
+ʼ	n	̃		ñ	ñ		Lm		vowel				U+02BC: MODIFIER LETTER APOSTROPHE	
 														
 ꓹꓼ				²⁵		W			tone mark				U+A4F9 U+A4FC: LISU LETTER TONE NA PO, LISU LETTER TONE MYA NA	
 ʼ				ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	

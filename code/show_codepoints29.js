@@ -230,7 +230,7 @@ function showNameDetailsX (chars, clang, base, target, panel, list, translit, ip
         
     
     // add instructions line
-	out += '<p id="advice" style="line-height:1;">Glosse lines are transliteration/text/IPA.<br>Click on character names below for detailed information.</p>'
+	out += '<p id="advice" style="line-height:1;">Glossed lines are transliteration/text/IPA.<br>Click on character names below for detailed information.</p>'
 	
 	// create a list of characters
 	if (list) chars = chars.replace(/ /g,'').replace(/\u00A0/g,'') // remove spaces if list
@@ -440,7 +440,7 @@ function showNameDetails (chars, clang, base, target, panel, list, translit, ipa
         
     
     // add instructions line
-	out += '<p id="advice" style="line-height:1;">Glosse lines are transliteration/text/IPA.<br>Click on character names below for detailed information.</p>'
+	out += '<p id="advice" style="line-height:1;">Glossed lines are transliteration/text/IPA.<br>Click on character names below for detailed information.</p>'
 	
 	// create a list of characters
 	if (list) chars = chars.replace(/ /g,'').replace(/\u00A0/g,'') // remove spaces if list

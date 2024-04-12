@@ -1,44 +1,52 @@
 var spreadsheet = `rjng-rej	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	latin name	ucs name	block
-ꤰ	k	k	a	k	k		Lo		consonant				U+A930: REJANG LETTER KA	
-ꤱ	g	ɡ	a	ɡ	g		Lo		consonant				U+A931: REJANG LETTER GA	
-ꤲ	n	ŋ	a	ŋ	ng		Lo		consonant				U+A932: REJANG LETTER NGA	
-ꤳ	t	t	a	t	t		Lo		consonant				U+A933: REJANG LETTER TA	
-ꤴ	d	d	a	d	d		Lo		consonant				U+A934: REJANG LETTER DA	
-ꤵ	n	n	a	n	n		Lo		consonant				U+A935: REJANG LETTER NA	
 ꤶ	p	p	a	p	p		Lo		consonant				U+A936: REJANG LETTER PA	
 ꤷ	b	b	a	b	b		Lo		consonant				U+A937: REJANG LETTER BA	
-ꤸ	m	m	a	m	m		Lo		consonant				U+A938: REJANG LETTER MA	
+ꤳ	t	t	a	t	t		Lo		consonant				U+A933: REJANG LETTER TA	
+ꤴ	d	d	a	d	d		Lo		consonant				U+A934: REJANG LETTER DA	
 ꤹ	c	c	a	c	c		Lo		consonant				U+A939: REJANG LETTER CA	
 ꤺ	j	ɟ	a	ɟ	j		Lo		consonant				U+A93A: REJANG LETTER JA	
-ꤻ	n	ɲ	a	ɲ	ny		Lo		consonant				U+A93B: REJANG LETTER NYA	
+ꤰ	k	k	a	k	k		Lo		consonant				U+A930: REJANG LETTER KA	
+ꤱ	g	ɡ	a	ɡ	g		Lo		consonant				U+A931: REJANG LETTER GA	
 ꤼ	s	s	a	s	s		Lo		consonant				U+A93C: REJANG LETTER SA	
+ꥁ	h	h	a	h	h		Lo		consonant				U+A941: REJANG LETTER HA	
+ꤸ	m	m	a	m	m		Lo		consonant				U+A938: REJANG LETTER MA	
+ꤵ	n	n	a	n	n		Lo		consonant				U+A935: REJANG LETTER NA	
+ꤻ	n	ɲ	a	ɲ	ny		Lo		consonant				U+A93B: REJANG LETTER NYA	
+ꤲ	n	ŋ	a	ŋ	ng		Lo		consonant				U+A932: REJANG LETTER NGA	
+ꥀ	w	w	a	w	w		Lo		consonant				U+A940: REJANG LETTER WA	
 ꤽ	r	r	a	r	r		Lo		consonant				U+A93D: REJANG LETTER RA	
 ꤾ	l	l	a	l	l		Lo		consonant				U+A93E: REJANG LETTER LA	
 ꤿ	y	j	a	j	y		Lo		consonant				U+A93F: REJANG LETTER YA	
-ꥀ	w	w	a	w	w		Lo		consonant				U+A940: REJANG LETTER WA	
-ꥁ	h	h	a	h	h		Lo		consonant				U+A941: REJANG LETTER HA	
 														
 ꥂ	b	ᵐb	a	ᵐb	mb		Lo		prenasalised consonant				U+A942: REJANG LETTER MBA	
-ꥃ	g	ⁿɡ	a	ⁿɡ	ng		Lo		prenasalised consonant				U+A943: REJANG LETTER NGGA	
 ꥄ	d	ⁿd	a	ⁿd	nd		Lo		prenasalised consonant				U+A944: REJANG LETTER NDA	
 ꥅ	j	ⁿɟ	a	ⁿɟ	nj		Lo		prenasalised consonant				U+A945: REJANG LETTER NYJA	
+ꥃ	g	ⁿɡ	a	ⁿɡ	ng		Lo		prenasalised consonant				U+A943: REJANG LETTER NGGA	
 														
-ꥆ	a	a ə		a	a		Lo		vowel				U+A946: REJANG LETTER A	
+ꥒ	}	-ʔ		ʔ			Mc​		final consonant				U+A952: REJANG CONSONANT SIGN H	
+ꥐ	N	-n		n̽	n		Mn​		final consonant				U+A950: REJANG CONSONANT SIGN N	
+ꥏ	N	-ŋ		ŋ̽	ng		Mn​		final consonant				U+A94F: REJANG CONSONANT SIGN NG	
+ꥑ	R	-r		r̽	r		Mn​		final consonant				U+A951: REJANG CONSONANT SIGN R	
 														
 ꥇ	i	i ɪ		i	i		Mn​		vowel				U+A947: REJANG VOWEL SIGN I	
+ꥆꥇ		i		ai					standalone vowel				U+A946 U+A947: REJANG LETTER A, VOWEL SIGN I	
 ꥈ	u	u ʊ		u	u		Mn​		vowel				U+A948: REJANG VOWEL SIGN U	
+ꥆꥈ		u		au									U+A946 U+A948: REJANG LETTER A, VOWEL SIGN U	
 ꥉ	e	ɛ e		ɛ	ɛ e		Mn​		vowel				U+A949: REJANG VOWEL SIGN E	
-ꥊ	a	ai		aⁱ	ai		Mn​		vowel				U+A94A: REJANG VOWEL SIGN AI	
+ꥆꥉ		ɛ		aɛ									U+A946 U+A949: REJANG LETTER A, VOWEL SIGN E	
 ꥋ	o	o ɔ		o	o		Mn​		vowel				U+A94B: REJANG VOWEL SIGN O	
+ꥆꥋ		o		ao									U+A946 U+A94B: REJANG LETTER A, VOWEL SIGN O	
+ꥆ	a	a ə		a	a		Lo		vowel				U+A946: REJANG LETTER A	
 														
-ꥌ	a	au		aᵘ	au		Mn​		diphthong				U+A94C: REJANG VOWEL SIGN AU	
-ꥍ	e	əu		əᵘ	əu		Mn​		diphthong				U+A94D: REJANG VOWEL SIGN EU	
 ꥎ	e	ɛa̯		ɛᵃ	ɛa̯		Mn​		diphthong				U+A94E: REJANG VOWEL SIGN EA	
+ꥆꥎ		ɛa̯		aɛᵃ									U+A946 U+A94E: REJANG LETTER A, VOWEL SIGN EA	
+ꥍ	e	əu̯		əᵘ	əu		Mn​		diphthong				U+A94D: REJANG VOWEL SIGN EU	
+ꥆꥍ		əu̯		aəᵘ									U+A946 U+A94D: REJANG LETTER A, VOWEL SIGN EU	
+ꥊ	a	ai̯		aⁱ	ai		Mn​		vowel				U+A94A: REJANG VOWEL SIGN AI	
+ꥆꥊ		ai̯		aaⁱ									U+A946 U+A94A: REJANG LETTER A, VOWEL SIGN AI	
+ꥌ	a	au̯		aᵘ	au		Mn​		diphthong				U+A94C: REJANG VOWEL SIGN AU	
+ꥆꥌ		au̯		aaᵘ									U+A946 U+A94C: REJANG LETTER A, VOWEL SIGN AU	
 														
-ꥏ	N	-ŋ		ŋ̽	ng		Mn​		final consonant				U+A94F: REJANG CONSONANT SIGN NG	
-ꥐ	N	-n		n̽	n		Mn​		final consonant				U+A950: REJANG CONSONANT SIGN N	
-ꥑ	R	-r		r̽	r		Mn​		final consonant				U+A951: REJANG CONSONANT SIGN R	
-ꥒ	}	-ʔ		ʔ			Mc​		final consonant				U+A952: REJANG CONSONANT SIGN H	
 														
 ꥓	*			˟			Mc​		vowel absence indicator				U+A953: REJANG VIRAMA	
 ꥟	|			|	.		Po		section divider				U+A95F: REJANG SECTION MARK	

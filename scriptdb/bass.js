@@ -14,35 +14,37 @@ var spreadsheet = `bass-bsq	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 »	>			”			Pf	?	quotation mark				U+00BB: RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK	punctuation
 ‘	<			\‘	\‘		Pi	?	quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	
 ’	>			\’	\’		Pf	?	quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	
-𖫧	a	a		a	a		Lo		vowel		ah		U+16AE7: BASSA VAH LETTER A	✓
+														
+𖫥	p	p		p	p		Lo		consonant		pah		U+16AE5: BASSA VAH LETTER PA	✓
 𖫢	b	b		b	b		Lo		consonant		bah		U+16AE2: BASSA VAH LETTER BA	✓
-𖫔	b	ɓ m		mᵇ	ɓ m		Lo		consonant		mbe		U+16AD4: BASSA VAH LETTER MBE	✓
-𖫟	c	c		c	c		Lo		consonant		chay		U+16ADF: BASSA VAH LETTER CE	✓
-𖫗	d	d		d	d		Lo		consonant		dii		U+16AD7: BASSA VAH LETTER DHII	✓
-𖫞	d	ɗ		ɗ	ɖ		Lo		consonant		udau		U+16ADE: BASSA VAH LETTER DO	✓
-𖫫	e	e		e	e		Lo		vowel		aay		U+16AEB: BASSA VAH LETTER EE	✓
-𖫬	e	ɛ		ɛ	ɛ		Lo		vowel		eh		U+16AEC: BASSA VAH LETTER E	✓
-𖫓	f	f		f	f		Lo		consonant		fah		U+16AD3: BASSA VAH LETTER FA	✓
-𖫖	g	ɡ		g	g		Lo		consonant		gah		U+16AD6: BASSA VAH LETTER GAH	✓
 𖫝	g	g͡b ŋ͡m		gᵇ	gb gm		Lo		consonant		gbu		U+16ADD: BASSA VAH LETTER GBU	✓
-𖫠	h	hʷ		hʷ	hw		Lo		consonant		uwhuu		U+16AE0: BASSA VAH LETTER UWU	✓
-𖫭	i	i		i	i		Lo		vowel		iih		U+16AED: BASSA VAH LETTER I	✓
+𖫔	b	ɓ m		mᵇ	ɓ m		Lo		consonant		mbe		U+16AD4: BASSA VAH LETTER MBE	✓
+𖫡	t	t		t	t		Lo		consonant		tau		U+16AE1: BASSA VAH LETTER TO	✓
+𖫗	d	d		d	d		Lo		consonant		dii		U+16AD7: BASSA VAH LETTER DHII	✓
 𖫕	j	dʲ ɲ		dᶯ	dy ny		Lo		consonant		yeeay		U+16AD5: BASSA VAH LETTER YIE	✓
+𖫞	d	ɗ		ɗ	ɖ		Lo		consonant		udau		U+16ADE: BASSA VAH LETTER DO	✓
+𖫟	c	c		c	c		Lo		consonant		chay		U+16ADF: BASSA VAH LETTER CE	✓
 𖫙	j	ɟ		j	j		Lo		consonant		jauh		U+16AD9: BASSA VAH LETTER JO	✓
 𖫑	k	k		k	k		Lo		consonant		kah		U+16AD1: BASSA VAH LETTER KA	✓
 𖫘	k	k͡p		kᵖ	kp		Lo		consonant		kpah		U+16AD8: BASSA VAH LETTER KPAH	✓
-𖫐	n	n		n	n		Lo		consonant		ehnii		U+16AD0: BASSA VAH LETTER ENNI	✓
-𖫩	o	o		o	o		Lo		vowel		oh		U+16AE9: BASSA VAH LETTER OO	✓
-𖫨	o	ɔ		ɔ	ɔ		Lo		vowel		auh		U+16AE8: BASSA VAH LETTER O	✓
-𖫥	p	p		p	p		Lo		consonant		pah		U+16AE5: BASSA VAH LETTER PA	✓
-𖫦	r	ɾ		r	r		Lo	l	consonant		uwada		U+16AE6: BASSA VAH LETTER WADDA	✓
-𖫒	s	s		s	s		Lo		consonant		say		U+16AD2: BASSA VAH LETTER SE	✓
-𖫡	t	t		t	t		Lo		consonant		tau		U+16AE1: BASSA VAH LETTER TO	✓
-𖫪	u	u		u	u		Lo		vowel		uuh		U+16AEA: BASSA VAH LETTER U	✓
+𖫖	g	ɡ		g	g		Lo		consonant		gah		U+16AD6: BASSA VAH LETTER GAH	✓
+𖫓	f	f		f	f		Lo		consonant		fah		U+16AD3: BASSA VAH LETTER FA	✓
 𖫣	v	v		v	v		Lo		consonant		vu		U+16AE3: BASSA VAH LETTER VU	✓
-𖫛	w	w		w	w		Lo		consonant		wah		U+16ADB: BASSA VAH LETTER WA	✓
-𖫚	x	xʷ ħʷ		xʷ	xw		Lo		consonant		whah		U+16ADA: BASSA VAH LETTER HWAH	✓
+𖫒	s	s		s	s		Lo		consonant		say		U+16AD2: BASSA VAH LETTER SE	✓
 𖫜	z	z		z	z		Lo		consonant		zau		U+16ADC: BASSA VAH LETTER ZO	✓
+𖫚	x	xʷ ħʷ		xʷ	xw		Lo		consonant		whah		U+16ADA: BASSA VAH LETTER HWAH	✓
+𖫠	h	hʷ		hʷ	hw		Lo		consonant		uwhuu		U+16AE0: BASSA VAH LETTER UWU	✓
+𖫐	n	n		n	n		Lo		consonant		ehnii		U+16AD0: BASSA VAH LETTER ENNI	✓
+𖫛	w	w		w	w		Lo		consonant		wah		U+16ADB: BASSA VAH LETTER WA	✓
+𖫦	r	ɾ		r	r		Lo	l	consonant		uwada		U+16AE6: BASSA VAH LETTER WADDA	✓
+														
+𖫭	i	i		i	i		Lo		vowel		iih		U+16AED: BASSA VAH LETTER I	✓
+𖫪	u	u		u	u		Lo		vowel		uuh		U+16AEA: BASSA VAH LETTER U	✓
+𖫫	e	e		e	e		Lo		vowel		aay		U+16AEB: BASSA VAH LETTER EE	✓
+𖫩	o	o		o	o		Lo		vowel		oh		U+16AE9: BASSA VAH LETTER OO	✓
+𖫬	e	ɛ		ɛ	ɛ		Lo		vowel		eh		U+16AEC: BASSA VAH LETTER E	✓
+𖫨	o	ɔ		ɔ	ɔ		Lo		vowel		auh		U+16AE8: BASSA VAH LETTER O	✓
+𖫧	a	a		a	a		Lo		vowel		ah		U+16AE7: BASSA VAH LETTER A	✓
 														
 ,				,			Po		comma				U+002C: COMMA	
 .				.			Po		full stop				U+002E: FULL STOP	

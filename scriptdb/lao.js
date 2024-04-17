@@ -49,6 +49,10 @@ var spreadsheet = `// laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type
 ເ	e	eː		ē	ē	g	Lo		prescript long vowel					U+0EC0: LAO VOWEL SIGN E	ee	✓
 ເ◌ະ	e	-E		ē-a	E				short vowel					U+0EC0 U+0EB0: LAO VOWEL SIGN E, VOWEL SIGN A	ei	
 ເ◌ັ	e	-E-		ē-ä	E				short vowel					U+0EC0 U+0EB1: LAO VOWEL SIGN E, VOWEL SIGN MAI KAN	e	
+ເ◌ີ	V	-ɤː		ē-ī	Œ̄				long vowel					U+0EC0 U+0EB5: LAO VOWEL SIGN E, VOWEL SIGN II	əə	
+ເ◌ິ	V	-ɤ		ē-i	Œ				short vowel					U+0EC0 U+0EB4: LAO VOWEL SIGN E, VOWEL SIGN I	ə	
+ເ◌ີຽ		-ɤːj		ē-īiᵊ	Œ̄Y				diphthong					U+0EC0 U+0EB5 U+0EBD: LAO VOWEL SIGN E, VOWEL SIGN II, SEMIVOWEL SIGN NYO		
+ເ◌ີຍ		-ɤːj		ē-īɲ̱	Œ̄Y				diphthong					U+0EC0 U+0EB5 U+0E8D: LAO VOWEL SIGN E, VOWEL SIGN II, LETTER NYO	əəi	
 ໂ	o	oː		ō	ō	3	Lo		prescript long vowel					U+0EC2: LAO VOWEL SIGN O	oo	✓
 ົ	o	o		o	o	q	Mn		short vowel			ໄມ້ກົງ	mâj kòŋ	U+0EBB: LAO VOWEL SIGN MAI KON		✓
 ໂ◌ະ	o	-O		ō-a	O				short vowel					U+0EC2 U+0EB0: LAO VOWEL SIGN O, VOWEL SIGN A	o	
@@ -59,10 +63,6 @@ var spreadsheet = `// laoo-lo	key	ipa	ipa+	translit	transc	kbd	class	status	type
 ໍ	O	ɔː		ɔ̄	ǭ	=	Mn		long vowel			ນິກຄະຫິດ	nīk kʰā hǐt	U+0ECD: LAO NIGGAHITA	ɔ	✓
 ເ◌າະ	O	-Ɔ		ē-āa	Ǫ				short vowel					U+0EC0 U+0EB2 U+0EB0: LAO VOWEL SIGN E, VOWEL SIGN AA, VOWEL SIGN A	ɔ	
 ◌ັອ	O	-Ɔ		-äʔ	Ǫ				short vowel					U+0EB1 U+0EAD: LAO VOWEL SIGN MAI KAN, LETTER O	ɔ	
-ເ◌ີ	V	-ɤː		ē-ī	Œ̄				long vowel					U+0EC0 U+0EB5: LAO VOWEL SIGN E, VOWEL SIGN II	əə	
-ເ◌ິ	V	-ɤ		ē-i	Œ				short vowel					U+0EC0 U+0EB4: LAO VOWEL SIGN E, VOWEL SIGN I	ə	
-ເ◌ີຽ		-ɤːj		ē-īiᵊ	Œ̄Y				diphthong					U+0EC0 U+0EB5 U+0EBD: LAO VOWEL SIGN E, VOWEL SIGN II, SEMIVOWEL SIGN NYO		
-ເ◌ີຍ		-ɤːj		ē-īɲ̱	Œ̄Y				diphthong					U+0EC0 U+0EB5 U+0E8D: LAO VOWEL SIGN E, VOWEL SIGN II, LETTER NYO	əəi	
 າ	a	aː		ā	ā	k	Lo		long vowel					U+0EB2: LAO VOWEL SIGN AA	aa	✓
 ະ	a	a		a	a		Lo		short vowel					U+0EB0: LAO VOWEL SIGN A	a	✓
 ັ	a	a		ä	a	a	Mn		short vowel			ໄມ້ກັນ	mâj kàn	U+0EB1: LAO VOWEL SIGN MAI KAN	a	✓

@@ -17,8 +17,9 @@ var spreadsheet = `grek-el	key	ipa	ipa+	translit	transc	kbd	class	status	type	us
 ]	)			]	]		Pe	?	bracket						U+005D: RIGHT SQUARE BRACKET	
 \u0301	[			ˊ		;	Mn	i	tonos						U+0301: COMBINING ACUTE ACCENT	
 \u0308	[			¨		:	Mn	i	dialytika						U+0308: COMBINING DIAERESIS	
-͵	#			‛			Sk		thousands indicator	for greek additive numbering					U+0375: GREEK LOWER NUMERAL SIGN	✓
+͵	#			‛			Sk		thousands indicator	Used for Greek additive numbering.					U+0375: GREEK LOWER NUMERAL SIGN	✓
 ʹ	#			·			Lm		additive numbering indicator				κεραία		U+02B9: MODIFIER LETTER PRIME	
+/				/	/		Po		abbreviation indicator						U+002F: SOLIDUS	
 €	#			¤			Sc		currency symbol						U+20AC: EURO SIGN	
 %	%			%			Po		percentage mark						U+0025: PERCENT SIGN	
 ‰	%			‰			Po	?	per mille mark						U+2030: PER MILLE SIGN	

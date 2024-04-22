@@ -34,7 +34,7 @@ var spreadsheet = `rohg-rhg	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 𐴸	±	•		8̣	8	8	Nd		digit				U+10D38: HANIFI ROHINGYA DIGIT EIGHT	✓
 𐴹	±	•		9̣	9	9	Nd		digit				U+10D39: HANIFI ROHINGYA DIGIT NINE	✓
 “	<	“		“	“		Pi		quotation mark				U+201C: LEFT DOUBLE QUOTATION MARK	✓
-\‘	<			\‘	\‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	✓
+‘	<			‘	‘		Pi		quotation mark				U+2018: LEFT SINGLE QUOTATION MARK	✓
 \u200C	=			ₓ			Cf	?	zwnj				U+200C: ZERO WIDTH NON-JOINER	
 \u200D	=			₊			Cf	?	zwj				U+200D: ZERO WIDTH JOINER	
 \u2067	=			ʳˡⁱ			Cf		rtl isolate				U+2067: RIGHT-TO-LEFT ISOLATE	
@@ -49,47 +49,49 @@ var spreadsheet = `rohg-rhg	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u034F	=			ᶜᵍʲ			Mn	?	combining grapheme joiner				U+034F: COMBINING GRAPHEME JOINER	
 \u061C	=			ᵃˡᵐ			Cf	?	arabic letter mark				U+061C: ARABIC LETTER MARK	
 ”	>	”		”	”		Pf		quotation mark				U+201D: RIGHT DOUBLE QUOTATION MARK	✓
-\’	>			\’	\’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	✓
-𐴝	a	a		a	a	v	Lo		vowel			aa-for	U+10D1D: HANIFI ROHINGYA VOWEL A	✓
-𐴁	b	b		b	b	b	Lo		stop			ba	U+10D01: HANIFI ROHINGYA LETTER BA	✓
-𐴆	c	c		c	c	;	Lo		affricate			ca	U+10D06: HANIFI ROHINGYA LETTER CA	✓
-𐴊	d	d		d	d	.	Lo		stop			da	U+10D0A: HANIFI ROHINGYA LETTER DA	✓
-𐴋	D	ɖ		ɖ	dd	d	Lo		stop			dda	U+10D0B: HANIFI ROHINGYA LETTER DDA	✓
-𐴠	e	e		e	e	e	Lo		vowel			e-for	U+10D20: HANIFI ROHINGYA VOWEL E	✓
-𐴉	f	f		f	f	f	Lo		fricative			fa	U+10D09: HANIFI ROHINGYA LETTER FA	✓
-𐴒	g	g		g	g	g	Lo		stop			ga	U+10D12: HANIFI ROHINGYA LETTER GA	✓
-𐴇	h	h		h	h	h	Lo		fricative			ha	U+10D07: HANIFI ROHINGYA LETTER HA	✓
-𐴞	i	i		i	i	i	Lo		vowel			i-for	U+10D1E: HANIFI ROHINGYA VOWEL I	✓
-𐴅	j	ɟ		ɟ	j	j	Lo		affricate			ja	U+10D05: HANIFI ROHINGYA LETTER JA	✓
-𐴙	j	j		ĵ	y	]	Lo		semivowel			kinna ya	U+10D19: HANIFI ROHINGYA LETTER KINNA YA	✓
-𐴑	k	k		k	k	k	Lo		stop			ka	U+10D11: HANIFI ROHINGYA LETTER KA	✓
-𐴓	l	l		l	l	l	Lo		liquid			la	U+10D13: HANIFI ROHINGYA LETTER LA	✓
-𐴔	m	m		m	m	m	Lo		nasal			ma	U+10D14: HANIFI ROHINGYA LETTER MA	✓
-𐴕	n	n		n	n	n	Lo		nasal			na	U+10D15: HANIFI ROHINGYA LETTER NA	✓
-𐴛	n	ɲ		ɲ	nya		Lo		nasal			nya = nayya	U+10D1B: HANIFI ROHINGYA LETTER NYA	✓
-𐴚	N	ŋ		ŋ	nga	x	Lo		nasal			nga = gan	U+10D1A: HANIFI ROHINGYA LETTER NGA	✓
-𐴡	o	o		o	o	o	Lo		vowel			o-for	U+10D21: HANIFI ROHINGYA VOWEL O	✓
-𐴀𐴝	ɔ	a		‸a	a				standalone vowel				U+10D00 U+10D1D: HANIFI ROHINGYA LETTER A, VOWEL A	
-𐴂	p	p		p	p	p	Lo		stop			pa	U+10D02: HANIFI ROHINGYA LETTER PA	✓
-𐴀	q	ɔ ∅		‸	a	a	Lo		vowel or vowel carrier			a	U+10D00: HANIFI ROHINGYA LETTER A	✓
-𐴌	r	ɾ		ɾ	r	r	Lo		liquid			ra	U+10D0C: HANIFI ROHINGYA LETTER RA	✓
-𐴍	r	ɽ		ɽ	rr	/	Lo		liquid			rra	U+10D0D: HANIFI ROHINGYA LETTER RRA	✓
-𐴏	s	s		s	s	s	Lo		fricative			sa	U+10D0F: HANIFI ROHINGYA LETTER SA	✓
-𐴐	S	ʃ		ʃ	sh	c	Lo		fricative			sha	U+10D10: HANIFI ROHINGYA LETTER SHA	✓
-𐴃	t	t		t	t	t	Lo		stop			ta	U+10D03: HANIFI ROHINGYA LETTER TA	✓
-𐴄	T	ʈ		ʈ	tt	t	Lo		stop			tta	U+10D04: HANIFI ROHINGYA LETTER TTA	✓
-𐴟	u	u		u	u	u	Lo		vowel			u-for	U+10D1F: HANIFI ROHINGYA VOWEL U	✓
-𐴜	v	v		v	v		Lo	o	fricative			va	U+10D1C: HANIFI ROHINGYA LETTER VA	✓
-𐴖	w	w v		ʋ	w	w	Lo		liquid			wa	U+10D16: HANIFI ROHINGYA LETTER WA	✓
-𐴗	w	w		ŵ	w	[	Lo		semivowel			kinna wa	U+10D17: HANIFI ROHINGYA LETTER KINNA WA	✓
-𐴈	x	x		x	kh	q	Lo		fricative			kha	U+10D08: HANIFI ROHINGYA LETTER KHA	✓
-𐴘	y	j		j	y	y	Lo		liquid			ya	U+10D18: HANIFI ROHINGYA LETTER YA	✓
-𐴎	z	z		z	z	z	Lo		fricative			za	U+10D0E: HANIFI ROHINGYA LETTER ZA	✓
+’	>			’	’		Pf		quotation mark				U+2019: RIGHT SINGLE QUOTATION MARK	✓
 														
+𐴂	p	p		p	p	p	Lo		consonant			pa	U+10D02: HANIFI ROHINGYA LETTER PA	✓
+𐴁	b	b		b	b	b	Lo		consonant			ba	U+10D01: HANIFI ROHINGYA LETTER BA	✓
+𐴃	t	t		t	t	t	Lo		consonant			ta	U+10D03: HANIFI ROHINGYA LETTER TA	✓
+𐴊	d	d		d	d	.	Lo		consonant			da	U+10D0A: HANIFI ROHINGYA LETTER DA	✓
+𐴄	T	ʈ		ʈ	tt	t	Lo		consonant			tta	U+10D04: HANIFI ROHINGYA LETTER TTA	✓
+𐴋	D	ɖ		ɖ	dd	d	Lo		consonant			dda	U+10D0B: HANIFI ROHINGYA LETTER DDA	✓
+𐴆	c	c		c	c	;	Lo		consonant			ca	U+10D06: HANIFI ROHINGYA LETTER CA	✓
+𐴅	j	ɟ		ɟ	j	j	Lo		consonant			ja	U+10D05: HANIFI ROHINGYA LETTER JA	✓
+𐴑	k	k		k	k	k	Lo		consonant			ka	U+10D11: HANIFI ROHINGYA LETTER KA	✓
+𐴒	g	g		g	g	g	Lo		consonant			ga	U+10D12: HANIFI ROHINGYA LETTER GA	✓
+𐴉	f	f		f	f	f	Lo		consonant			fa	U+10D09: HANIFI ROHINGYA LETTER FA	✓
+𐴜	v	v		v	v		Lo	o	consonant			va	U+10D1C: HANIFI ROHINGYA LETTER VA	✓
+𐴏	s	s		s	s	s	Lo		consonant			sa	U+10D0F: HANIFI ROHINGYA LETTER SA	✓
+𐴎	z	z		z	z	z	Lo		consonant			za	U+10D0E: HANIFI ROHINGYA LETTER ZA	✓
+𐴐	S	ʃ		ʃ	sh	c	Lo		consonant			sha	U+10D10: HANIFI ROHINGYA LETTER SHA	✓
+𐴈	x	x		x	kh	q	Lo		consonant			kha	U+10D08: HANIFI ROHINGYA LETTER KHA	✓
+𐴇	h	h		h	h	h	Lo		consonant			ha	U+10D07: HANIFI ROHINGYA LETTER HA	✓
+𐴔	m	m		m	m	m	Lo		consonant			ma	U+10D14: HANIFI ROHINGYA LETTER MA	✓
+𐴕	n	n		n	n	n	Lo		consonant			na	U+10D15: HANIFI ROHINGYA LETTER NA	✓
+𐴛	n	ɲ		ɲ	nya		Lo		consonant			nya = nayya	U+10D1B: HANIFI ROHINGYA LETTER NYA	✓
+𐴚	N	ŋ		ŋ	nga	x	Lo		consonant			nga = gan	U+10D1A: HANIFI ROHINGYA LETTER NGA	✓
+𐴖	w	w v		ʋ	w	w	Lo		consonant			wa	U+10D16: HANIFI ROHINGYA LETTER WA	✓
+𐴗	w	w		ŵ	w	[	Lo		semivowel			kinna wa	U+10D17: HANIFI ROHINGYA LETTER KINNA WA	✓
+𐴌	r	ɾ		ɾ	r	r	Lo		consonant			ra	U+10D0C: HANIFI ROHINGYA LETTER RA	✓
+𐴍	r	ɽ		ɽ	rr	/	Lo		consonant			rra	U+10D0D: HANIFI ROHINGYA LETTER RRA	✓
+𐴓	l	l		l	l	l	Lo		consonant			la	U+10D13: HANIFI ROHINGYA LETTER LA	✓
+𐴘	y	j		j	y	y	Lo		consonant			ya	U+10D18: HANIFI ROHINGYA LETTER YA	✓
+𐴙	j	j		ĵ	y	]	Lo		semivowel			kinna ya	U+10D19: HANIFI ROHINGYA LETTER KINNA YA	✓
+														
+														
+𐴞	i	i		i	i	i	Lo		vowel			i-for	U+10D1E: HANIFI ROHINGYA VOWEL I	✓
 𐴀𐴞		i		‸i	i				standalone vowel				U+10D00 U+10D1E: HANIFI ROHINGYA LETTER A, VOWEL I	
+𐴟	u	u		u	u	u	Lo		vowel			u-for	U+10D1F: HANIFI ROHINGYA VOWEL U	✓
 𐴀𐴟		u		‸u	u				standalone vowel				U+10D00 U+10D1F: HANIFI ROHINGYA LETTER A, VOWEL U	
+𐴠	e	e		e	e	e	Lo		vowel			e-for	U+10D20: HANIFI ROHINGYA VOWEL E	✓
 𐴀𐴠		e		‸e	e				standalone vowel				U+10D00 U+10D20: HANIFI ROHINGYA LETTER A, VOWEL E	
+𐴡	o	o		o	o	o	Lo		vowel			o-for	U+10D21: HANIFI ROHINGYA VOWEL O	✓
 𐴀𐴡		o		‸o	o				standalone vowel				U+10D00 U+10D21: HANIFI ROHINGYA LETTER A, VOWEL O	
+𐴀	q	ɔ ∅		‸	a	a	Lo		vowel or vowel carrier			a	U+10D00: HANIFI ROHINGYA LETTER A	✓
+𐴝	a	a		a	a	v	Lo		vowel			aa-for	U+10D1D: HANIFI ROHINGYA VOWEL A	✓
+𐴀𐴝	ɔ	a		‸a	a				standalone vowel				U+10D00 U+10D1D: HANIFI ROHINGYA LETTER A, VOWEL A	
 														
 ʼ				ʼ	ʼ		Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
 §				§	§		Po	?	section sign				U+00A7: SECTION SIGN	

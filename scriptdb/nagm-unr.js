@@ -24,33 +24,35 @@ var spreadsheet = `nagm-unr	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 \u{1E4EF}	/			ˑ			Mn​		nukta		\u{1E4DB}\u{1E4DF}\u{1E4DD}\u{1E4DF}\u{1E4D9}	sutu\u{294}	U+1E4EF: NAG MUNDARI SIGN SUTUH	✓	Mn
 \u{1E4D9}	}	ʔ		ʔ		H	Lo		consonant				U+1E4D9: NAG MUNDARI LETTER AH	✓	Lo stop
 \u{1E4EB}	}	ˀ		ˀ		z	Lm		checked final mark		\u{1E4D0}\u{1E4D6}\u{1E4D0}\u{1E4E1}	ojod	U+1E4EB: NAG MUNDARI SIGN OJOD	✓	Lm 
-\u{1E4D5}	a	a		a	a	a	Lo		vowel				U+1E4D5: NAG MUNDARI LETTER A	✓	Lo vowel
+															
+\u{1E4D1}	p	p		p	p	p	Lo		consonant				U+1E4D1: NAG MUNDARI LETTER OP	✓	Lo stop
 \u{1E4D7}	b	b		b	b	b	Lo		consonant				U+1E4D7: NAG MUNDARI LETTER AB	✓	Lo stop
+\u{1E4DD}	t	t		t	t	T	Lo		consonant				U+1E4DD: NAG MUNDARI LETTER IT	✓	Lo stop
 \u{1E4E0}	c	t͡ʃ		c	c	c	Lo		consonant				U+1E4E0: NAG MUNDARI LETTER UC	✓	Lo affricate
 \u{1E4E1}	d	d		d	d	D	Lo		consonant				U+1E4E1: NAG MUNDARI LETTER UD	✓	Lo stop
-\u{1E4DC}	D	ɖ		ɖ	ḍ	d	Lo		consonant				U+1E4DC: NAG MUNDARI LETTER IDD	✓	Lo stop
-\u{1E4E4}	e	e		e	e	e	Lo		vowel				U+1E4E4: NAG MUNDARI LETTER E	✓	Lo vowel
-\u{1E4E6}	g	ɡ		g	g	g	Lo		consonant				U+1E4E6: NAG MUNDARI LETTER EG	✓	Lo stop
-\u{1E4DE}	h	h		h	h	h	Lo		consonant				U+1E4DE: NAG MUNDARI LETTER IH	✓	Lo fricative
-\u{1E4DA}	i	i		i	i	i	Lo		vowel				U+1E4DA: NAG MUNDARI LETTER I	✓	Lo vowel
 \u{1E4D6}	j	d͡ʒ		ʤ	j	j	Lo		consonant				U+1E4D6: NAG MUNDARI LETTER AJ	✓	Lo affricate
+\u{1E4E9}	T	ʈ		ʈ	tt	t	Lo		consonant				U+1E4E9: NAG MUNDARI LETTER ETT	✓	Lo stop
+\u{1E4DC}	D	ɖ		ɖ	ḍ	d	Lo		consonant				U+1E4DC: NAG MUNDARI LETTER IDD	✓	Lo stop
 \u{1E4E2}	k	k		k	k	k	Lo		consonant				U+1E4E2: NAG MUNDARI LETTER UK	✓	Lo stop
-\u{1E4D2}	l	l		l	l	l	Lo		consonant				U+1E4D2: NAG MUNDARI LETTER OL	✓	Lo other
+\u{1E4E6}	g	ɡ		g	g	g	Lo		consonant				U+1E4E6: NAG MUNDARI LETTER EG	✓	Lo stop
+\u{1E4DB}	s	s		s	s	s	Lo		consonant				U+1E4DB: NAG MUNDARI LETTER IS	✓	Lo fricative
+\u{1E4DE}	h	h		h	h	h	Lo		consonant				U+1E4DE: NAG MUNDARI LETTER IH	✓	Lo fricative
 \u{1E4E7}	m	m		m	m	m	Lo		consonant				U+1E4E7: NAG MUNDARI LETTER EM	✓	Lo nasal
 \u{1E4E8}	n	n		n	n	n	Lo		consonant				U+1E4E8: NAG MUNDARI LETTER EN	✓	Lo nasal
 \u{1E4D8}	n	ɲ		ɲ	ny	J	Lo		consonant				U+1E4D8: NAG MUNDARI LETTER ANY	✓	Lo nasal
 \u{1E4D4}	N	ŋ		ŋ	ng	G	Lo		consonant				U+1E4D4: NAG MUNDARI LETTER ONG	✓	Lo nasal
 \u{1E4E5}	N	ɳ		ŋ	ṇ	N	Lo		consonant				U+1E4E5: NAG MUNDARI LETTER ENN	✓	Lo nasal
-\u{1E4D0}	o	o		o	o	o	Lo		vowel				U+1E4D0: NAG MUNDARI LETTER O	✓	Lo vowel
-\u{1E4D1}	p	p		p	p	p	Lo		consonant				U+1E4D1: NAG MUNDARI LETTER OP	✓	Lo stop
+\u{1E4EE}	w	w ʷ		ʷ		w	Mn​		labialisation mark		\u{1E4DA}\u{1E4E2}\u{1E4DA}\u{1E4E3}	ikir	U+1E4EE: NAG MUNDARI SIGN IKIR	✓	Mn​
 \u{1E4E3}	r	r		r	r	r	Lo		consonant				U+1E4E3: NAG MUNDARI LETTER UR	✓	Lo other
 \u{1E4EA}	R	ɽ		ɽ	r	L	Lo		consonant				U+1E4EA: NAG MUNDARI LETTER ELL	✓	Lo other
-\u{1E4DB}	s	s		s	s	s	Lo		consonant				U+1E4DB: NAG MUNDARI LETTER IS	✓	Lo fricative
-\u{1E4DD}	t	t		t	t	T	Lo		consonant				U+1E4DD: NAG MUNDARI LETTER IT	✓	Lo stop
-\u{1E4E9}	T	ʈ		ʈ	tt	t	Lo		consonant				U+1E4E9: NAG MUNDARI LETTER ETT	✓	Lo stop
-\u{1E4DF}	u	u		u	u	u	Lo		vowel				U+1E4DF: NAG MUNDARI LETTER U	✓	Lo vowel
-\u{1E4EE}	w	w ʷ		ʷ		w	Mn​		labialisation mark		\u{1E4DA}\u{1E4E2}\u{1E4DA}\u{1E4E3}	ikir	U+1E4EE: NAG MUNDARI SIGN IKIR	✓	Mn​
+\u{1E4D2}	l	l		l	l	l	Lo		consonant				U+1E4D2: NAG MUNDARI LETTER OL	✓	Lo other
 \u{1E4D3}	y	j		y	y	y	Lo		consonant				U+1E4D3: NAG MUNDARI LETTER OY	✓	Lo stop
+															
+\u{1E4DA}	i	i		i	i	i	Lo		vowel				U+1E4DA: NAG MUNDARI LETTER I	✓	Lo vowel
+\u{1E4DF}	u	u		u	u	u	Lo		vowel				U+1E4DF: NAG MUNDARI LETTER U	✓	Lo vowel
+\u{1E4E4}	e	e		e	e	e	Lo		vowel				U+1E4E4: NAG MUNDARI LETTER E	✓	Lo vowel
+\u{1E4D0}	o	o		o	o	o	Lo		vowel				U+1E4D0: NAG MUNDARI LETTER O	✓	Lo vowel
+\u{1E4D5}	a	a		a	a	a	Lo		vowel				U+1E4D5: NAG MUNDARI LETTER A	✓	Lo vowel
 														✓	
 \u{1E4F0}	±	0		0̣	0	0	Nd		digit				U+1E4F0: NAG MUNDARI DIGIT ZERO	✓	Nd
 \u{1E4F1}	±	1		1̣	1	1	Nd		digit				U+1E4F1: NAG MUNDARI DIGIT ONE	✓	Nd

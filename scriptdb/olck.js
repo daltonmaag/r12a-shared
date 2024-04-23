@@ -41,39 +41,40 @@ var spreadsheet = `olck-sat	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᱾	|	•		|	.	,	Po		minor break		ᱢᱩᱪᱟᱹᱫ	mucət’	U+1C7E: OL CHIKI PUNCTUATION MUCAAD	✓
 ᱿	|	•		‖	|	.	Po		major break			double mucăd	U+1C7F: OL CHIKI PUNCTUATION DOUBLE MUCAAD	✓
 														
-ᱟ	a	a		a	ā	e	Lo		vowel			laa	U+1C5F: OL CHIKI LETTER LAA	✓
+ᱯ	p	p		p	p	h	Lo		consonant			ep	U+1C6F: OL CHIKI LETTER EP	✓
 ᱵ	b	b p̚		b	b	y	Lo		consonant			ob	U+1C75: OL CHIKI LETTER OB	✓
-ᱪ	c	c		c	c	;	Lo		consonant			uch	U+1C6A: OL CHIKI LETTER UC	✓
+ᱛ	t	t		t	t	l	Lo		consonant			at	U+1C5B: OL CHIKI LETTER AT	✓
 ᱫ	d	d t̚		d	d	o	Lo		consonant			ud	U+1C6B: OL CHIKI LETTER UD	✓
+ᱴ	t	ʈ		ʈ	ṭ		Lo						U+1C74: OL CHIKI LETTER OTT	✓
 ᱰ	d	ɖ		ɖ	ḍ	[	Lo		pre-nasalised consonant			edd	U+1C70: OL CHIKI LETTER EDD	✓
-ᱮ	e	e		e	e	s	Lo		vowel			le	U+1C6E: OL CHIKI LETTER LE	✓
-ᱟᱹ	E	ə		aˑ	ă		s		extended vowel				U+1C5F U+1C79: OL CHIKI LETTER LAA, GAAHLAA TTUDDAAG	
-ᱮᱹ	E	ɛ		eˑ	ĕ		s		extended vowel				U+1C6E U+1C79: OL CHIKI LETTER LE, GAAHLAA TTUDDAAG	
-ᱜ	g	ɡ k̚		g	g	i	Lo		consonant			ag	U+1C5C: OL CHIKI LETTER AG	✓
-ᱦ	h	h ʔ		h	ẖ	u	Lo		consonant			ih	U+1C66: OL CHIKI LETTER IH	✓
-ᱷ	h	ʰ		ʰ	h	z	Lo					oh	U+1C77: OL CHIKI LETTER OH	✓
-ᱤ	i	i		i	i	f	Lo		vowel			li	U+1C64: OL CHIKI LETTER LI	✓
+ᱪ	c	c		c	c	;	Lo		consonant			uch	U+1C6A: OL CHIKI LETTER UC	✓
 ᱡ	j	ɟ c̚		j	j	p	Lo		consonant			aaj	U+1C61: OL CHIKI LETTER AAJ	✓
 ᱠ	k	k		k	k	k	Lo					aak	U+1C60: OL CHIKI LETTER AAK	✓
-ᱞ	l	l		l	l	n	Lo		consonant			al	U+1C5E: OL CHIKI LETTER AL	✓
+ᱜ	g	ɡ k̚		g	g	i	Lo		consonant			ag	U+1C5C: OL CHIKI LETTER AG	✓
+ᱥ	s	s		s	s	m	Lo		consonant			is	U+1C65: OL CHIKI LETTER IS	✓
+ᱦ	h	h ʔ		h	ẖ	u	Lo		consonant			ih	U+1C66: OL CHIKI LETTER IH	✓
+ᱷ	h	ʰ		ʰ	h	z	Lo					oh	U+1C77: OL CHIKI LETTER OH	✓
 ᱢ	m	m		m	m	c	Lo		consonant			aam	U+1C62: OL CHIKI LETTER AAM	✓
-ᱝ	m	ŋ		ŋ	ṃ	U	Lo		consonant			ang	U+1C5D: OL CHIKI LETTER ANG	✓
 ᱱ	n	n		n	n	v	Lo		consonant			en	U+1C71: OL CHIKI LETTER EN	✓
-ᱧ	n	ɲ		ɲ	ñ	}	Lo		consonant			iny	U+1C67: OL CHIKI LETTER INY	✓
 ᱬ	n	ɳ		ɳ	ṇ	C	Lo					unn	U+1C6C: OL CHIKI LETTER UNN	✓
+ᱧ	n	ɲ		ɲ	ñ	}	Lo		consonant			iny	U+1C67: OL CHIKI LETTER INY	✓
+ᱝ	m	ŋ		ŋ	ṃ	U	Lo		consonant			ang	U+1C5D: OL CHIKI LETTER ANG	✓
+ᱣ	w	w v		w	w	b	Lo		consonant			aaw	U+1C63: OL CHIKI LETTER AAW	✓
 ᱶ	n	w̃		w̃	ṅ	B	Lo					ov	U+1C76: OL CHIKI LETTER OV	✓
-ᱳ	o	o		o	o	a	Lo		vowel			lo	U+1C73: OL CHIKI LETTER LO	✓
-ᱚ	O	ɔ		ɔ	a	d	Lo		vowel			la	U+1C5A: OL CHIKI LETTER LA	✓
-ᱚᱹ	O	ɔ		ɔˑ	ŏ		s	i	extended vowel				U+1C5A U+1C79: OL CHIKI LETTER LA, GAAHLAA TTUDDAAG	
-ᱯ	p	p		p	p	h	Lo		consonant			ep	U+1C6F: OL CHIKI LETTER EP	✓
 ᱨ	r	r		r	r	j	Lo		consonant			ir	U+1C68: OL CHIKI LETTER IR	✓
 ᱲ	r	ɽ		ɽ	ṛ	{	Lo					err	U+1C72: OL CHIKI LETTER ERR	✓
-ᱥ	s	s		s	s	m	Lo		consonant			is	U+1C65: OL CHIKI LETTER IS	✓
-ᱛ	t	t		t	t	l	Lo		consonant			at	U+1C5B: OL CHIKI LETTER AT	✓
-ᱴ	t	ʈ		ʈ	ṭ		Lo						U+1C74: OL CHIKI LETTER OTT	✓
-ᱩ	u	u		u	u	g	Lo		vowel			lu	U+1C69: OL CHIKI LETTER LU	✓
-ᱣ	w	w v		w	w	b	Lo		consonant			aaw	U+1C63: OL CHIKI LETTER AAW	✓
+ᱞ	l	l		l	l	n	Lo		consonant			al	U+1C5E: OL CHIKI LETTER AL	✓
 ᱭ	y	j		y	y	/	Lo		consonant			uy	U+1C6D: OL CHIKI LETTER UY	✓
+														
+ᱤ	i	i		i	i	f	Lo		vowel			li	U+1C64: OL CHIKI LETTER LI	✓
+ᱩ	u	u		u	u	g	Lo		vowel			lu	U+1C69: OL CHIKI LETTER LU	✓
+ᱮ	e	e		e	e	s	Lo		vowel			le	U+1C6E: OL CHIKI LETTER LE	✓
+ᱳ	o	o		o	o	a	Lo		vowel			lo	U+1C73: OL CHIKI LETTER LO	✓
+ᱟᱹ	E	ə		aˑ	ă		s		extended vowel				U+1C5F U+1C79: OL CHIKI LETTER LAA, GAAHLAA TTUDDAAG	
+ᱮᱹ	E	ɛ		eˑ	ĕ		s		extended vowel				U+1C6E U+1C79: OL CHIKI LETTER LE, GAAHLAA TTUDDAAG	
+ᱚ	O	ɔ		ɔ	a	d	Lo		vowel			la	U+1C5A: OL CHIKI LETTER LA	✓
+ᱚᱹ	O	ɔ		ɔˑ	ŏ		s	i	extended vowel				U+1C5A U+1C79: OL CHIKI LETTER LA, GAAHLAA TTUDDAAG	
+ᱟ	a	a		a	ā	e	Lo		vowel			laa	U+1C5F: OL CHIKI LETTER LAA	✓
 														
 ʼ				ʼ			Lm	?	apostrophe				U+02BC: MODIFIER LETTER APOSTROPHE	
 §				§			Po	?	section sign				U+00A7: SECTION SIGN	

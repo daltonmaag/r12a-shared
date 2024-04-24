@@ -15,51 +15,52 @@ var spreadsheet = `nnp	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	
 )	)			)	)		Ps	?	parenthesis				U+0029: RIGHT PARENTHESIS	
 -	-			-	-		Pd	?	hyphen				U+2010: HYPHEN	
 														
-𞋀	a	aː		a	aa		Lo		vowel				U+1E2C0: WANCHO LETTER AA	
-𞋖	a	aʊ		aʷ	au		Lo		diphthong				U+1E2D6: WANCHO LETTER AU	
-𞋨	A	ã		ã	an		Lo		rhyme				U+1E2E8: WANCHO LETTER AAN	
-𞋣	A	aŋ		aⁿ	aang		Lo		rhyme				U+1E2E3: WANCHO LETTER AANG	
-𞋁	e	ə		ə	a		Lo		vowel				U+1E2C1: WANCHO LETTER A	
-𞋤	E	əŋ		iⁿ	ing		Lo		rhyme				U+1E2E4: WANCHO LETTER ANG	
-𞋛	e	e		e	e		Lo		vowel				U+1E2DB: WANCHO LETTER E	
-𞋧	E	ẽ		ẽ	en		Lo		rhyme				U+1E2E7: WANCHO LETTER EN	
-𞋜	i	i		i	i		Lo		vowel				U+1E2DC: WANCHO LETTER I	
-𞋥	I	iŋ		iⁿ	ing		Lo		rhyme				U+1E2E5: WANCHO LETTER ING	
-𞋕	o	o		o	o		Lo		vowel				U+1E2D5: WANCHO LETTER O	
-𞋦	O	õ		õ	on		Lo		rhyme				U+1E2E6: WANCHO LETTER ON	
-𞋢	O	oŋ		oⁿ	ong		Lo		rhyme				U+1E2E2: WANCHO LETTER ONG	
-𞋞	u	u		u	u		Lo		vowel				U+1E2DE: WANCHO LETTER U	
-𞋪	U	ũ		ũ	un		Lo		rhyme				U+1E2EA: WANCHO LETTER UEN	
-														
-𞋂	b	b	a	b	b		Lo		consonant				U+1E2C2: WANCHO LETTER BA	
-𞋃	c	t͡ʃ	a	ʧ	c		Lo		consonant				U+1E2C3: WANCHO LETTER CA	
-𞋄	d	d	a	d	d		Lo		consonant				U+1E2C4: WANCHO LETTER DA	
-𞋍	f	f	a	f	f		Lo		consonant				U+1E2CD: WANCHO LETTER FA	
-𞋅	g	ɡ	a	ɡ	g		Lo		consonant				U+1E2C5: WANCHO LETTER GA	
-𞋚	h	h	a	h	h		Lo		consonant				U+1E2DA: WANCHO LETTER HA	
-𞋐	j	d͡ʒ	a	ʤ	j		Lo		consonant				U+1E2D0: WANCHO LETTER JA	
-𞋔	k	k	a	k	k		Lo		consonant				U+1E2D4: WANCHO LETTER KA	
-𞋙	K	kʰ	a	kʰ	kh		Lo		consonant				U+1E2D9: WANCHO LETTER KHA	
-𞋈	l	l	a	l	l		Lo		consonant				U+1E2C8: WANCHO LETTER LA	
-𞋟	L	ɭ	a	ɭ	llha		Lo		consonant				U+1E2DF: WANCHO LETTER LLHA	
-𞋘	m	m	a	m	m		Lo		consonant				U+1E2D8: WANCHO LETTER MA	
-𞋉	n	n	a	n	n		Lo		consonant				U+1E2C9: WANCHO LETTER NA	
-𞋝	N	ŋ	a	ŋ	ng		Lo		consonant				U+1E2DD: WANCHO LETTER NGA	
-𞋩	N	ɲ	a	ɲ	ny		Lo		consonant				U+1E2E9: WANCHO LETTER NYA	
 𞋊	p	p	a	p	p		Lo		consonant				U+1E2CA: WANCHO LETTER PA	
 𞋇	P	pʰ	a	pʰ	ph		Lo		consonant				U+1E2C7: WANCHO LETTER PHA	
-𞋗	r	r	a	r	r		Lo		consonant				U+1E2D7: WANCHO LETTER RA	
-𞋎	s	s	a	s	s		Lo		consonant				U+1E2CE: WANCHO LETTER SA	
-𞋏	S	ʃ	a	ʃ	sh		Lo		consonant				U+1E2CF: WANCHO LETTER SHA	
+𞋂	b	b	a	b	b		Lo		consonant				U+1E2C2: WANCHO LETTER BA	
 𞋋	t	t	a	t	t		Lo		consonant				U+1E2CB: WANCHO LETTER TA	
 𞋌	T	tʰ	a	tʰ	th		Lo		consonant				U+1E2CC: WANCHO LETTER THA	
 𞋠	T	t͡s	a	ʦ	ts		Lo		consonant				U+1E2E0: WANCHO LETTER TSA	
+𞋃	c	t͡ʃ	a	ʧ	c		Lo		consonant				U+1E2C3: WANCHO LETTER CA	
 𞋡	T	tr̥	a	t̥	tr		Lo		consonant				U+1E2E1: WANCHO LETTER TRA	
-𞋓	v	ʋ	a	ʋ	v		Lo		consonant				U+1E2D3: WANCHO LETTER VA	
-𞋒	w	w	a	w	w		Lo		consonant				U+1E2D2: WANCHO LETTER WA	
-𞋆	y	j	a	j	y		Lo		consonant				U+1E2C6: WANCHO LETTER YA	
-𞋑	z	z	a	z	z		Lo		consonant				U+1E2D1: WANCHO LETTER ZA	
+𞋄	d	d	a	d	d		Lo		consonant				U+1E2C4: WANCHO LETTER DA	
+𞋐	j	d͡ʒ	a	ʤ	j		Lo		consonant				U+1E2D0: WANCHO LETTER JA	
+𞋔	k	k	a	k	k		Lo		consonant				U+1E2D4: WANCHO LETTER KA	
+𞋙	K	kʰ	a	kʰ	kh		Lo		consonant				U+1E2D9: WANCHO LETTER KHA	
+𞋅	g	ɡ	a	ɡ	g		Lo		consonant				U+1E2C5: WANCHO LETTER GA	
 𞋫	}	ʔ		ʔ			Lo		consonant			yih	U+1E2EB: WANCHO LETTER YIH	
+𞋍	f	f	a	f	f		Lo		consonant				U+1E2CD: WANCHO LETTER FA	
+𞋎	s	s	a	s	s		Lo		consonant				U+1E2CE: WANCHO LETTER SA	
+𞋑	z	z	a	z	z		Lo		consonant				U+1E2D1: WANCHO LETTER ZA	
+𞋏	S	ʃ	a	ʃ	sh		Lo		consonant				U+1E2CF: WANCHO LETTER SHA	
+𞋚	h	h	a	h	h		Lo		consonant				U+1E2DA: WANCHO LETTER HA	
+𞋘	m	m	a	m	m		Lo		consonant				U+1E2D8: WANCHO LETTER MA	
+𞋉	n	n	a	n	n		Lo		consonant				U+1E2C9: WANCHO LETTER NA	
+𞋩	N	ɲ	a	ɲ	ny		Lo		consonant				U+1E2E9: WANCHO LETTER NYA	
+𞋝	N	ŋ	a	ŋ	ng		Lo		consonant				U+1E2DD: WANCHO LETTER NGA	
+𞋒	w	w	a	w	w		Lo		consonant				U+1E2D2: WANCHO LETTER WA	
+𞋓	v	ʋ	a	ʋ	v		Lo		consonant				U+1E2D3: WANCHO LETTER VA	
+𞋗	r	r	a	r	r		Lo		consonant				U+1E2D7: WANCHO LETTER RA	
+𞋈	l	l	a	l	l		Lo		consonant				U+1E2C8: WANCHO LETTER LA	
+𞋟	L	ꞎ	a	ꞎ	llha		Lo		consonant				U+1E2DF: WANCHO LETTER LLHA	
+𞋆	y	j	a	j	y		Lo		consonant				U+1E2C6: WANCHO LETTER YA	
+														
+𞋜	i	i		i	i		Lo		vowel				U+1E2DC: WANCHO LETTER I	
+𞋞	u	u		u	u		Lo		vowel				U+1E2DE: WANCHO LETTER U	
+𞋪	U	ũ		ũ	un		Lo		rhyme				U+1E2EA: WANCHO LETTER UEN	
+𞋛	e	e		e	e		Lo		vowel				U+1E2DB: WANCHO LETTER E	
+𞋧	E	ẽ		ẽ	en		Lo		rhyme				U+1E2E7: WANCHO LETTER EN	
+𞋕	o	o		o	o		Lo		vowel				U+1E2D5: WANCHO LETTER O	
+𞋦	O	õ		õ	on		Lo		rhyme				U+1E2E6: WANCHO LETTER ON	
+𞋁	e	ə		ə	a		Lo		vowel				U+1E2C1: WANCHO LETTER A	
+𞋀	a	aː		a	aa		Lo		vowel				U+1E2C0: WANCHO LETTER AA	
+𞋨	A	ã		ã	an		Lo		rhyme				U+1E2E8: WANCHO LETTER AAN	
+														
+𞋥	I	iŋ		iⁿ	ing		Lo		rhyme				U+1E2E5: WANCHO LETTER ING	
+𞋤	E	əŋ		iⁿ	ing		Lo		rhyme				U+1E2E4: WANCHO LETTER ANG	
+𞋢	O	oŋ		oⁿ	ong		Lo		rhyme				U+1E2E2: WANCHO LETTER ONG	
+𞋖	a	aʊ		aʷ	au		Lo		diphthong				U+1E2D6: WANCHO LETTER AU	
+𞋣	A	aŋ		aⁿ	aang		Lo		rhyme				U+1E2E3: WANCHO LETTER AANG	
 														
 𞋬	^			¹			Mn​		falling tone mark			tup	U+1E2EC: WANCHO TONE TUP	
 𞋭	^			²			Mn​		low tone mark			tupni	U+1E2ED: WANCHO TONE TUPNI	
@@ -80,7 +81,7 @@ var spreadsheet = `nnp	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	
 𞋿							Sc		rupee symbol				U+1E2FF: WANCHO NGUN SIGN	
 `														
 														
-latinPanel = '̀ ́ ̂ ã õ ũ ẽ õ ŋ ɔ ə ɡ ɭ ɯ ɲ ʃ ʒ ʔ ʰ ̃ ̥ ͡ θ ʊ t͡ʃ d͡ʒ t͡s tr̥ pʰ tʰ kʰ'														
+latinPanel = '̀ ́ ̂ ã õ ũ ẽ õ ŋ ɔ ə ɡ ɭ ɯ ɲ ʃ ʒ ʔ ʰ ̃ ̥ ͡ θ ʊ t͡ʃ d͡ʒ t͡s tr̥ pʰ tʰ kʰ θ'														
 														
 var cols = {														
 key: 1,														

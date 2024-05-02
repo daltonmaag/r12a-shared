@@ -209,9 +209,10 @@ var spreadsheet = `lana-nod	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ᩒ				–		f	Lo	?										U+1A52: TAI THAM LETTER OO	✓
 ᩼				–		N	Mn	u										U+1A7C: TAI THAM SIGN KHUEN-LUE KARAN	✓
 ᩜ				–		,	Mn	?										U+1A5C: TAI THAM CONSONANT SIGN MA	✓
+◌									consonant placeholder									C	
 `																			
 																			
-latinPanel = 'á a᷇ aː eː ɛː ɛ ʰ iː ɲ ŋ ∅ oː ɔː ɔ pʰ ʨ tʰ uː ɯː ɯ ʔ'																			
+latinPanel = 'ǎ à a᷇ ā â á aː ě è e᷇ ē ê é eː ɤ̌ ɤ̀ ɤ᷇ ɤ̄ ɤ̂ ɤ́ ɤː ɛː ɛ ɔ̌ ɔ̀ ɔ᷇ ɔ̄ ɔ̂ ɔ́ ɔ ʰ iː ɲ ŋ ∅ oː ɔː ɔ pʰ ʨ tʰ uː ɯː ɯ ʔ'																			
 																			
 var cols = {																			
 key: 1,																			

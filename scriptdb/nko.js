@@ -75,67 +75,66 @@ var spreadsheet = `nkoo-nqo	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 ߷	|			¶			Po		major section terminator				U+07F7: NKO SYMBOL GBAKURUNEN	✓
 														
 														
-ߌ	i	i		i	i	i	Lo		vowel				U+07CC: NKO LETTER I	✓
-ߎ	u	u		u	u	u	Lo		vowel				U+07CE: NKO LETTER U	✓
-ߎ߳	U	y		uˑ	y		s	l	vowel				U+07CE U+07F3: NKO LETTER U, COMBINING DOUBLE DOT ABOVE	
-ߋ	e	e		e	e	E	Lo		vowel				U+07CB: NKO LETTER EE	✓
-ߍ	E	ɛ		ɛ	ɛ	e	Lo		vowel				U+07CD: NKO LETTER E	✓
-ߋ߳	E	ǝ		eˑ	ǝ		s	l	vowel				U+07CB U+07F3: NKO LETTER EE, COMBINING DOUBLE DOT ABOVE	
-ߏ	o	o		o	o	O	Lo		vowel				U+07CF: NKO LETTER OO	✓
-ߐ	O	ɔ		ɔ	ɔ	o	Lo		vowel				U+07D0: NKO LETTER O	✓
-ߊ	a	a		a	a	a	Lo	i	vowel				U+07CA: NKO LETTER A	✓
-ߊ߳	A	ʕa		aˑ	ʕa		s	l	vowel	Represents the Arabic  عَ.			U+07CA U+07F3: NKO LETTER A, COMBINING DOUBLE DOT ABOVE	
-														
+ߔ	p	p		p	p	p	Lo		consonant				U+07D4: NKO LETTER PA	✓
 ߓ	b	b		b	b	b	Lo		consonant				U+07D3: NKO LETTER BA	✓
 ߓ߭	B	bʰ		b³	bʰ		s	l	consonant				U+07D3 U+07ED: NKO LETTER BA, COMBINING SHORT RISING TONE	
+ߜ	g	ɡ͡b		gᵇ	gb	g	Lo		consonant				U+07DC: NKO LETTER GBA	✓
+ߕ	t	t		t	t	t	Lo		consonant				U+07D5: NKO LETTER TA	✓
+ߕ߭	T	tˤ		t³	ᵵ		s	l	consonant	Represents the Arabic ط.			U+07D5 U+07ED: NKO LETTER TA, COMBINING SHORT RISING TONE	
 ߗ	c	t͡ʃ		ʧ	c	c	Lo		consonant				U+07D7: NKO LETTER CHA	✓
 ߘ	d	d		d	d	d	Lo		consonant				U+07D8: NKO LETTER DA	✓
 ߙ߳	D	dʰ		rˑ	dʰ		s	l	consonant				U+07D9 U+07F3: NKO LETTER RA, COMBINING DOUBLE DOT ABOVE	
 ߘ߭	D	dˤ		d³	ᵭ		s	l	consonant				U+07D8 U+07ED: NKO LETTER DA, COMBINING SHORT RISING TONE	
-ߗ߭	D	ð ʒ		ʧ³	ð ʒ		s	l	consonant	Represents the Arabic ذ.			U+07D7 U+07ED: NKO LETTER CHA, COMBINING SHORT RISING TONE	
-ߝ	f	f		f	f	f	Lo		consonant				U+07DD: NKO LETTER FA	✓
-ߜ	g	ɡ͡b		gᵇ	gb	g	Lo		consonant				U+07DC: NKO LETTER GBA	✓
-ߜ߭	G	ɡ		gᵇ³	ɡ		s	l	consonant				U+07DC U+07ED: NKO LETTER GBA, COMBINING SHORT RISING TONE	
-ߤ	h	h		h	h	h	Lo		consonant				U+07E4: NKO LETTER HA	✓
-ߤ߭	H	ħ		h³	ḥ		s	l	consonant				U+07E4 U+07ED: NKO LETTER HA, COMBINING SHORT RISING TONE	
 ߖ	j	d͡ʒ		ʤ	j	j	Lo		consonant				U+07D6: NKO LETTER JA	✓
-ߟ߭	J	lʰ		l³	lʰ		s	l	consonant				U+07DF U+07ED: NKO LETTER LA, COMBINING SHORT RISING TONE	
 ߞ	k	k		k	k	k	Lo		consonant				U+07DE: NKO LETTER KA	✓
-ߜ߳	K	kp		gᵇˑ	kp		s	l	consonant				U+07DC U+07F3: NKO LETTER GBA, COMBINING DOUBLE DOT ABOVE	
-ߟ	l	l		l	l	l	Lo		consonant				U+07DF: NKO LETTER LA	✓
+ߜ߳	K	k͡p		gᵇˑ	kp		s	l	consonant				U+07DC U+07F3: NKO LETTER GBA, COMBINING DOUBLE DOT ABOVE	
+ߜ߭	G	ɡ		gᵇ³	ɡ		s	l	consonant				U+07DC U+07ED: NKO LETTER GBA, COMBINING SHORT RISING TONE	
+ߞ߫	Q	q		k¹	q		s	l	consonant	Represents the Arabic ق.			U+07DE U+07EB: NKO LETTER KA, COMBINING SHORT HIGH TONE	
+ߝ	f	f		f	f	f	Lo		consonant				U+07DD: NKO LETTER FA	✓
+ߝ߭	V	v		f³	v		s	l	consonant				U+07DD U+07ED: NKO LETTER FA, COMBINING SHORT RISING TONE	
+ߛ߳	Q	θ		sˑ	θ		s	l	consonant	Represents the Arabic ث.			U+07DB U+07F3: NKO LETTER SA, COMBINING DOUBLE DOT ABOVE	
+ߗ߭	D	ð ʒ		ʧ³	ð ʒ		s	l	consonant	Represents the Arabic ذ.			U+07D7 U+07ED: NKO LETTER CHA, COMBINING SHORT RISING TONE	
+ߛ	s	s		s	s	s	Lo		consonant				U+07DB: NKO LETTER SA	✓
+ߛ߫	S	sˤ		s¹	ᵴ		s	l	consonant	Represents the Arabic ص.			U+07DB U+07EB: NKO LETTER SA, COMBINING SHORT HIGH TONE	
+ߖ߭	Z	z		ʤ³	z		s	l	consonant				U+07D6 U+07ED: NKO LETTER JA, COMBINING SHORT RISING TONE	
+ߖ߳	Z	zˤ		ʤˑ	ƶ		s	l	consonant	Represents the Arabic ظ.			U+07D6 U+07F3: NKO LETTER JA, COMBINING DOUBLE DOT ABOVE	
+ߛ߭	S	ʃ		s³	ʃ		s	l	consonant	Represents the Arabic ش.			U+07DB U+07ED: NKO LETTER SA, COMBINING SHORT RISING TONE	
+ߞ߭	X	x		k³	x		s	l	consonant				U+07DE U+07ED: NKO LETTER KA, COMBINING SHORT RISING TONE	
+ߜ߫	Y	ɣ		gᵇ¹	ɣ		s	l	consonant	Represents the Arabic غ.			U+07DC U+07EB: NKO LETTER GBA, COMBINING SHORT HIGH TONE	
+ߤ߭	H	ħ		h³	ḥ		s	l	consonant				U+07E4 U+07ED: NKO LETTER HA, COMBINING SHORT RISING TONE	
+ߊ߳	A	ʕa		aˑ	ʕa		s	l	vowel	Represents the Arabic  عَ.			U+07CA U+07F3: NKO LETTER A, COMBINING DOUBLE DOT ABOVE	
+ߤ	h	h		h	h	h	Lo		consonant				U+07E4: NKO LETTER HA	✓
 ߡ	m	m		m	m	m	Lo		consonant				U+07E1: NKO LETTER MA	✓
 ߡ߭	M	mʰ		m³	mʰ		s	l	consonant				U+07E1 U+07ED: NKO LETTER MA, COMBINING SHORT RISING TONE	
 ߣ	n	n		n	n	n	Lo		consonant				U+07E3: NKO LETTER NA	✓
-ߢ	n	ɲ		ɲ	ɲ		Lo		consonant				U+07E2: NKO LETTER NYA	✓
-ߒ	N	n̩		ŋ̩	n	N	Lo		nasal syllable				U+07D2: NKO LETTER N	✓
 ߠ	N	n		ł	n		Lo		abstract consonant			ná-woloso	U+07E0: NKO LETTER NA WOLOSO	✓
-ߧ	N	ɲ		y	y		Lo		abstract consonant			ɲá-woloso	U+07E7: NKO LETTER NYA WOLOSO	✓
 ߢ߭	N	nʰ		ɲ³	nʰ		s	l	consonant				U+07E2 U+07ED: NKO LETTER NYA, COMBINING SHORT RISING TONE	
-ߔ	p	p		p	p	p	Lo		consonant				U+07D4: NKO LETTER PA	✓
-ߞ߫	Q	q		k¹	q		s	l	consonant	Represents the Arabic ق.			U+07DE U+07EB: NKO LETTER KA, COMBINING SHORT HIGH TONE	
-ߛ߳	Q	θ		sˑ	θ		s	l	consonant	Represents the Arabic ث.			U+07DB U+07F3: NKO LETTER SA, COMBINING DOUBLE DOT ABOVE	
+ߢ	n	ɲ		ɲ	ɲ		Lo		consonant				U+07E2: NKO LETTER NYA	✓
+ߧ	N	ɲ		y	y		Lo		abstract consonant			ɲá-woloso	U+07E7: NKO LETTER NYA WOLOSO	✓
+ߒ	N	n̩		ŋ̩	n	N	Lo		nasal syllable				U+07D2: NKO LETTER N	✓
+ߥ	w	w		w	w	w	Lo		consonant				U+07E5: NKO LETTER WA	✓
 ߙ	r	r		r	r	r	Lo		consonant				U+07D9: NKO LETTER RA	✓
 ߚ	r	rr		ṙ	rr	R	Lo		consonant				U+07DA: NKO LETTER RRA	✓
 ߙ߭	R	ʀ		r³	ʀ		s	l	consonant				U+07D9 U+07ED: NKO LETTER RA, COMBINING SHORT RISING TONE	
-ߛ	s	s		s	s	s	Lo		consonant				U+07DB: NKO LETTER SA	✓
-ߛ߫	S	sˤ		s¹	ᵴ		s	l	consonant	Represents the Arabic ص.			U+07DB U+07EB: NKO LETTER SA, COMBINING SHORT HIGH TONE	
-ߛ߭	S	ʃ		s³	ʃ		s	l	consonant	Represents the Arabic ش.			U+07DB U+07ED: NKO LETTER SA, COMBINING SHORT RISING TONE	
-ߕ	t	t		t	t	t	Lo		consonant				U+07D5: NKO LETTER TA	✓
-ߕ߭	T	tˤ		t³	ᵵ		s	l	consonant	Represents the Arabic ط.			U+07D5 U+07ED: NKO LETTER TA, COMBINING SHORT RISING TONE	
-ߝ߭	V	v		f³	v		s	l	consonant				U+07DD U+07ED: NKO LETTER FA, COMBINING SHORT RISING TONE	
-ߥ	w	w		w	w	w	Lo		consonant				U+07E5: NKO LETTER WA	✓
-ߞ߭	X	x		k³	x		s	l	consonant				U+07DE U+07ED: NKO LETTER KA, COMBINING SHORT RISING TONE	
+ߟ	l	l		l	l	l	Lo		consonant				U+07DF: NKO LETTER LA	✓
+ߟ߭	J	lʰ		l³	lʰ		s	l	consonant				U+07DF U+07ED: NKO LETTER LA, COMBINING SHORT RISING TONE	
 ߦ	y	j		j	y	y	Lo		consonant				U+07E6: NKO LETTER YA	✓
-ߜ߫	Y	ɣ		gᵇ¹	ɣ		s	l	consonant	Represents the Arabic غ.			U+07DC U+07EB: NKO LETTER GBA, COMBINING SHORT HIGH TONE	
 ߦ߭	Y	yʰ		y³	yʰ		s	l	consonant				U+07E6 U+07ED: NKO LETTER YA, COMBINING SHORT RISING TONE	
-ߖ߭	Z	z		ʤ³	z		s	l	consonant				U+07D6 U+07ED: NKO LETTER JA, COMBINING SHORT RISING TONE	
-ߖ߳	Z	zˤ		ʤˑ	ƶ		s	l	consonant	Represents the Arabic ظ.			U+07D6 U+07F3: NKO LETTER JA, COMBINING DOUBLE DOT ABOVE	
 														
 														
 ߨ		d͡ʒ		ʤ̄			Lo	a	consonant				U+07E8: NKO LETTER JONA JA	✓
 ߩ		t͡ʃ		ʧ̄			Lo	a	consonant				U+07E9: NKO LETTER JONA CHA	✓
 ߪ		r rː		r̄			Lo	a	consonant				U+07EA: NKO LETTER JONA RA	✓
 														
+ߌ	i	i		i	i	i	Lo		vowel				U+07CC: NKO LETTER I	✓
+ߎ߳	U	y		uˑ	y		s	l	vowel				U+07CE U+07F3: NKO LETTER U, COMBINING DOUBLE DOT ABOVE	
+ߎ	u	u		u	u	u	Lo		vowel				U+07CE: NKO LETTER U	✓
+ߋ	e	e		e	e	E	Lo		vowel				U+07CB: NKO LETTER EE	✓
+ߏ	o	o		o	o	O	Lo		vowel				U+07CF: NKO LETTER OO	✓
+ߋ߳	E	ǝ		eˑ	ǝ		s	l	vowel				U+07CB U+07F3: NKO LETTER EE, COMBINING DOUBLE DOT ABOVE	
+ߍ	E	ɛ		ɛ	ɛ	e	Lo		vowel				U+07CD: NKO LETTER E	✓
+ߐ	O	ɔ		ɔ	ɔ	o	Lo		vowel				U+07D0: NKO LETTER O	✓
+ߊ	a	a		a	a	a	Lo		vowel				U+07CA: NKO LETTER A	✓
 `														
 														
 latinPanel = '́ ̀ ̌ ̂ ̃ á à ã ǎ ɛ ɛ́ ɛ̀ ɛ̃ é è ẽ í ì ĩ ɔ ɔ́ ɔ̀ ɔ̃ ó ò õ ú ù ũ bʰ d͡ʒ dʰ dˤ ᵭ ð ǝ ɡ͡b ħ ḥ ł lʰ mʰ ɲ n̩ ŋ ñ nʰ θ rː ʀ sˤ ᵴ ʃ t͡ʃ tˤ ᵵ ɣ yʰ ʒ zˤ ƶ ʕ ’'														

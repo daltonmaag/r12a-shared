@@ -145,12 +145,12 @@ var spreadsheet = `adlm-fuf	key	ipa	ipa+	translit	transc	kbd	class	status	type	u
 																	
 																	
 																	
-𞤭	i	i		i	i		Ll		vowel		𞤋		𞤭 𞤭𞤭𞤭		i	U+1E92D: ADLAM SMALL LETTER I	✓
-𞤋	I	i		I	I		Lu		uppercase vowel			𞤭	𞤋 𞤋𞤋𞤋		i	U+1E90B: ADLAM CAPITAL LETTER I	✓
+𞤭	i	i ɪ		i	i		Ll		vowel		𞤋		𞤭 𞤭𞤭𞤭		i	U+1E92D: ADLAM SMALL LETTER I	✓
+𞤋	I	i ɪ		I	I		Lu		uppercase vowel			𞤭	𞤋 𞤋𞤋𞤋		i	U+1E90B: ADLAM CAPITAL LETTER I	✓
 𞤭𞥅	i	iː		iː	ii				long vowel		𞤋𞥅					U+1E92D U+1E945: ADLAM SMALL LETTER I, VOWEL LENGTHENER	
 𞤋𞥅	I	iː		Iː	II				uppercase long vowel			𞤭𞥅				U+1E90B U+1E945: ADLAM CAPITAL LETTER I. VOWEL LENGTHENER	
-𞤵	u	u		u	u		Ll		vowel		𞤓		𞤵 𞤵𞤵𞤵		ou	U+1E935: ADLAM SMALL LETTER U	✓
-𞤓	U	u		U	U		Lu		uppercase vowel			𞤵	𞤓 𞤓𞤓𞤓		ou	U+1E913: ADLAM CAPITAL LETTER U	✓
+𞤵	u	u ʊ		u	u		Ll		vowel		𞤓		𞤵 𞤵𞤵𞤵		ou	U+1E935: ADLAM SMALL LETTER U	✓
+𞤓	U	u ʊ		U	U		Lu		uppercase vowel			𞤵	𞤓 𞤓𞤓𞤓		ou	U+1E913: ADLAM CAPITAL LETTER U	✓
 𞤵𞥅	u	uː		uː	uu				long vowel		𞤓𞥅					U+1E935 U+1E945: ADLAM SMALL LETTER U, VOWEL LENGTHENER	
 𞤓𞥅	U	uː		Uː	UU				uppercase long vowel			𞤵𞥅				U+1E913 U+1E945: ADLAM CAPITAL LETTER U. VOWEL LENGTHENER	
 𞤫	e	e ɛ		e	e		Ll		vowel		𞤉		𞤫 𞤫𞤫𞤫		è	U+1E92B: ADLAM SMALL LETTER E	✓

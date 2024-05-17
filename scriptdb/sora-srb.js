@@ -1,5 +1,5 @@
 var spreadsheet = `sora-srb	key	ipa	ipa+	translit	transc	kbd	class	status	type	usage	native name	name transcription	ucs name	block	0		
-\u0020	 						Zs		space				U+0020: SPACE				
+\u0020	 	 		 	 		Zs		space				U+0020: SPACE				
 																	
 𑃛	p	p	ə	p			Lo		consonant				U+110DB: SORA SOMPENG LETTER PAH				
 𑃒	b	b	ə	b			Lo		consonant				U+110D2: SORA SOMPENG LETTER BAH				

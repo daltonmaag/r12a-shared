@@ -343,3 +343,31 @@ var scriptGroups = [
 [1048576,1114111,"Supplementary Private Use Area-B","",""],
 ]
 
+
+
+function findScriptGroup ( charNum ) { 
+	// output: returns the name of the script group in which charNum falls
+	// charNum: a decimal number representing the code point of the character in question
+	if (charNum < 128) { return 'Basic Latin' }
+	var i=1
+	while ( i<scriptGroups.length && charNum > scriptGroups[i][0] ) i++
+	if ( i === scriptGroups.length ) { return( sNotAChar ) }
+	if ( scriptGroups[i-1][1] >= charNum ) { return( scriptGroups[i-1][2]) }
+	if ( scriptGroups[i][0] == charNum ) { return( scriptGroups[i][2]) }
+	return( sNotAChar )
+	}
+	
+	
+function findScriptISO ( charNum ) { 
+	// output: returns the iso code of the script group in which charNum falls
+	// charNum: a decimal number representing the code point of the character in question
+	if (charNum < 128) { return 'Basic Latin' }
+	var i=1
+	while ( i<scriptGroups.length && charNum > scriptGroups[i][0] ) i++
+	if ( i === scriptGroups.length ) { return( sNotAChar ) }
+	if ( scriptGroups[i-1][1] >= charNum ) { return( scriptGroups[i-1][3]) }
+	if ( scriptGroups[i][0] == charNum ) { return( scriptGroups[i][3]) }
+	return( sNotAChar )
+	}
+	
+	
